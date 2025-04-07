@@ -1,0 +1,1608 @@
+<html class="chrome"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<!--ls:headTopBegin[script]--><!-- (START) Adobe Analytics - Header -->
+<script async="" src="https://www.clarity.ms/tag/uet/187121601?insights=1"></script><script async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script><script async="" src="//bat.bing.com/bat.js"></script><script async="" data-id="C5OCGO5O3VNUQLVLQAVG" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTZlZmM4ZjZjMA.js" type="text/javascript"></script><script async="" data-id="CHNCN0JC77U441D0BM30" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTZlZmM4ZjZjMA.js" type="text/javascript"></script><script async="" data-id="CR4459RC77U5L7EOLS00" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTZlZmM4ZjZjMA.js" type="text/javascript"></script><script async="" src="https://rules.quantcount.com/rules-p-aYB-sszdkZnW8.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-819557438&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://secure.quantserve.com/quant.js" type="text/javascript"></script><script async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CHNCN0JC77U441D0BM30&amp;lib=ttq" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-822276054&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5OCGO5O3VNUQLVLQAVG&amp;lib=ttq" type="text/javascript"></script><script async="" src="https://s.yimg.com/wi/ytc.js"></script><script async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CR4459RC77U5L7EOLS00&amp;lib=ttq" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=DC-14973400&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-16564362591&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-819584299&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=DC-14760445&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://analytics.tiktok.com/i18n/pixel/static/identify_935b0d03.js" type="text/javascript"></script><script async="" data-id="C5OCGO5O3VNUQLVLQAVG" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTZlZmM4ZjZjMA.js" type="text/javascript"></script><script id="lb_adv_4035702348" src="//cdn-akamai.mookie1.com/adv/default.js" type="text/javascript"></script><script async="" src="https://wave.outbrain.com/mtWavesBundler/handler/00d950255b1a8793b56fba9eb94a92d023" type="text/javascript"></script><script id="lbMapping_4035702348" src="//cdn-akamai.mookie1.com/adv/mapping.js" type="text/javascript"></script><script async="" id="undefined" src="https://www.google-analytics.com/plugins/ga/inpage_linkid.js" type="text/javascript"></script><script async="" id="www-widgetapi-script" src="https://www.youtube.com/s/player/73381ccc/www-widgetapi.vflset/www-widgetapi.js" type="text/javascript"></script><script async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5OCGO5O3VNUQLVLQAVG&amp;lib=ttq" type="text/javascript"></script><script async="" src="//amplify.outbrain.com/cp/obtp.js" type="text/javascript"></script><script async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/destination?id=DC-9036546&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-822276054&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5421v831161492za200&amp;tag_exp=102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016" type="text/javascript"></script><script async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js" type="text/javascript"></script><script async="" src="https://www.google-analytics.com/analytics.js" type="text/javascript"></script><script src="https://www.youtube.com/iframe_api"></script><script async="" src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script><script async="" src="https://connect.facebook.net/signals/config/980153733500172?v=2.9.194&amp;r=stable&amp;domain=www.ocbc.com&amp;hme=3469cd2310bfdef0792a05d8d61fe44de3551987a5200ece9665feac8460097d&amp;ex_m=72%2C128%2C113%2C117%2C63%2C5%2C106%2C71%2C17%2C101%2C93%2C52%2C56%2C182%2C185%2C197%2C193%2C194%2C196%2C30%2C107%2C54%2C79%2C195%2C177%2C180%2C190%2C191%2C198%2C139%2C42%2C203%2C200%2C201%2C35%2C152%2C16%2C51%2C207%2C206%2C141%2C19%2C41%2C1%2C44%2C67%2C68%2C69%2C73%2C97%2C18%2C15%2C100%2C96%2C95%2C114%2C53%2C116%2C40%2C115%2C31%2C98%2C27%2C178%2C181%2C149%2C12%2C13%2C14%2C7%2C8%2C26%2C23%2C24%2C59%2C64%2C66%2C77%2C55%2C105%2C108%2C28%2C78%2C10%2C9%2C82%2C49%2C22%2C110%2C109%2C111%2C102%2C11%2C21%2C3%2C39%2C76%2C20%2C161%2C88%2C135%2C29%2C75%2C0%2C99%2C58%2C86%2C34%2C84%2C85%2C92%2C48%2C47%2C90%2C91%2C38%2C6%2C94%2C83%2C45%2C33%2C36%2C89%2C4%2C87%2C248%2C175%2C126%2C164%2C157%2C2%2C37%2C65%2C43%2C112%2C46%2C81%2C70%2C118%2C62%2C61%2C32%2C103%2C60%2C57%2C50%2C80%2C74%2C25%2C104%2C119%2C173%2C208%2C210%2C250%2C176%2C234%2C129%2C167%2C154%2C137%2C247%2C123%2C155%2C183%2C169%2C125%2C144%2C130%2C163%2C205%2C120%2C136"></script><script async="" src="https://connect.facebook.net/signals/config/965439930204848?v=2.9.194&amp;r=stable&amp;domain=www.ocbc.com&amp;hme=3469cd2310bfdef0792a05d8d61fe44de3551987a5200ece9665feac8460097d&amp;ex_m=72%2C128%2C113%2C117%2C63%2C5%2C106%2C71%2C17%2C101%2C93%2C52%2C56%2C182%2C185%2C197%2C193%2C194%2C196%2C30%2C107%2C54%2C79%2C195%2C177%2C180%2C190%2C191%2C198%2C139%2C42%2C203%2C200%2C201%2C35%2C152%2C16%2C51%2C207%2C206%2C141%2C19%2C41%2C1%2C44%2C67%2C68%2C69%2C73%2C97%2C18%2C15%2C100%2C96%2C95%2C114%2C53%2C116%2C40%2C115%2C31%2C98%2C27%2C178%2C181%2C149%2C12%2C13%2C14%2C7%2C8%2C26%2C23%2C24%2C59%2C64%2C66%2C77%2C55%2C105%2C108%2C28%2C78%2C10%2C9%2C82%2C49%2C22%2C110%2C109%2C111%2C102%2C11%2C21%2C3%2C39%2C76%2C20%2C161%2C88%2C135%2C29%2C75%2C0%2C99%2C58%2C86%2C34%2C84%2C85%2C92%2C48%2C47%2C90%2C91%2C38%2C6%2C94%2C83%2C45%2C33%2C36%2C89%2C4%2C87%2C248%2C175%2C126%2C164%2C157%2C2%2C37%2C65%2C43%2C112%2C46%2C81%2C70%2C118%2C62%2C61%2C32%2C103%2C60%2C57%2C50%2C80%2C74%2C25%2C104%2C119%2C173%2C208%2C210%2C250%2C176%2C234%2C129%2C167%2C154%2C137%2C247%2C123%2C155%2C183%2C169%2C125%2C144%2C130%2C163%2C205%2C120%2C136"></script><script async="" src="https://connect.facebook.net/signals/config/1205034763867173?v=2.9.194&amp;r=stable&amp;domain=www.ocbc.com&amp;hme=3469cd2310bfdef0792a05d8d61fe44de3551987a5200ece9665feac8460097d&amp;ex_m=72%2C128%2C113%2C117%2C63%2C5%2C106%2C71%2C17%2C101%2C93%2C52%2C56%2C182%2C185%2C197%2C193%2C194%2C196%2C30%2C107%2C54%2C79%2C195%2C177%2C180%2C190%2C191%2C198%2C139%2C42%2C203%2C200%2C201%2C35%2C152%2C16%2C51%2C207%2C206%2C141%2C19%2C41%2C1%2C44%2C67%2C68%2C69%2C73%2C97%2C18%2C15%2C100%2C96%2C95%2C114%2C53%2C116%2C40%2C115%2C31%2C98%2C27%2C178%2C181%2C149%2C12%2C13%2C14%2C7%2C8%2C26%2C23%2C24%2C59%2C64%2C66%2C77%2C55%2C105%2C108%2C28%2C78%2C10%2C9%2C82%2C49%2C22%2C110%2C109%2C111%2C102%2C11%2C21%2C3%2C39%2C76%2C20%2C161%2C88%2C135%2C29%2C75%2C0%2C99%2C58%2C86%2C34%2C84%2C85%2C92%2C48%2C47%2C90%2C91%2C38%2C6%2C94%2C83%2C45%2C33%2C36%2C89%2C4%2C87%2C248%2C175%2C126%2C164%2C157%2C2%2C37%2C65%2C43%2C112%2C46%2C81%2C70%2C118%2C62%2C61%2C32%2C103%2C60%2C57%2C50%2C80%2C74%2C25%2C104%2C119"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PZTQ6GN"></script><script async="" src="//assets.adobedtm.com/f8f9776f70c5/0bff5181279c/launch-8b264ef01a0b.min.js"></script>
+<!-- (END) Adobe Analytics - Header -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZTQ6GN');</script>
+<!-- End Google Tag Manager -->
+<script>
+!function(e,a,n,t){var i=e.head;if(i){ if (a) return; var o=e.createElement("style"); o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}} (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+</script>
+<script type="application/ld+json">
+  { 
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "OCBC Bank Singapore",
+    "alternateName": "OCBC Bank Singapore",
+    "url": "https://www.ocbc.com/",
+    "logo": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/img/logo_ocbc.png",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "2199" 
+    },
+    "sameAs": [
+      "https://www.facebook.com/OCBCBank/",
+      "https://twitter.com/ocbcbank",
+      "https://www.youtube.com/user/channelocbc",
+      "https://www.linkedin.com/company/ocbc-bank/"
+    ] 
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "OCBC Bank Singapore",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/img/logo_ocbc.png",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1205034763867173');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" src="https://www.facebook.com/tr?id=1205034763867173&amp;ev=PageView
+&amp;noscript=1" width="1"/>
+</noscript>
+<!-- End Facebook Pixel Code --><!--ls:headTopEnd[script]--><!--ls:begin[analytics-head]--><!--ls:end[analytics-head]--><title>OCBC 360 Account | High Interest Savings Account | Salary Crediting</title>
+<!--grid-layout-->
+<!--ls:begin[stylesheet]-->
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:1080px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/iwov-resources/grid/bootstrap/4.0/bootstrap-grid.min.css" rel="stylesheet" type="text/css"/>
+<!--ls:end[stylesheet]-->
+<!--ls:begin[script]-->
+<!--ls:end[script]-->
+<!--ls:begin[meta-keywords]-->
+<meta content="" name="keywords"/>
+<!--ls:end[meta-keywords]-->
+<!--ls:begin[meta-description]-->
+<meta content="Looking for OCBC's best savings account with high interest rates? Maximise your interest when you credit your salary, save, insure or invest. Apply online." name="description"/>
+<!--ls:end[meta-description]-->
+<!--ls:begin[custom-meta-data]-->
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<!--ls:end[custom-meta-data]-->
+<!--ls:begin[meta-robots]-->
+<meta content="" name="robots"/>
+<meta content="" name="robots"/>
+<!--ls:end[meta-robots]-->
+<!--ls:begin[meta-vpath]-->
+<meta content="" name="vpath"/>
+<!--ls:end[meta-vpath]-->
+<!--ls:begin[meta-page-locale-name]-->
+<meta content="" name="page-locale-name"/>
+<!--ls:end[meta-page-locale-name]-->
+<!--ls:begin[script]-->
+<script data-ocde-desktop_or_tablet_or_phone="show" src="/iwov-resources/sg/ocbc/personal/js/jquery.min.js" type="text/javascript"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script data-ocde-desktop_or_tablet_or_phone="show" src="/iwov-resources/sg/ocbc/personal/js/page-script.js" type="text/javascript"></script>
+<!--ls:end[script]-->
+<!--ls:begin[canonical]-->
+<link href="https://www.ocbc.com/personal-banking/deposits/360-savings-account" rel="canonical"/>
+<!--ls:end[canonical]-->
+<!--ls:begin[head-injection]--><link href="/iwov-resources/sg/ocbc/personal/css/style.css?20200729" media="all" rel="stylesheet"/>
+<link href="/iwov-resources/sg/ocbc/personal/css/qualtrics.css?2020062501" media="all" rel="stylesheet"/>
+<!--ls:end[head-injection]--><!--ls:begin[head-injection]--><!--ls:end[og/twitter]--><!--ls:begin[tracker-injection]--><!--ls:end[tracker-injection]--><!--ls:begin[script]--><!--ls:end[script]--><!--ls:begin[script]--><!--ls:end[script]--><!--ls:headBottomBegin[script]-->
+<script type="text/javascript">
+                var _gaq = _gaq || [];
+                var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+                _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+                _gaq.push(['_setAccount', 'UA-31687854-1']);
+                // _gaq.push(['_setDomainName', 'ocbc.com']);
+                _gaq.push(['_trackPageview']);
+                (function() {
+                    var ga = document.createElement('script');
+                    ga.type = 'text/javascript';
+                    ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+                        'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+<script type="text/javascript">
+					var tag = document.createElement('script');
+					tag.src = "https://www.youtube.com/iframe_api";
+					var firstScriptTag = document.getElementsByTagName('script')[0];
+					firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+				</script>
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+<script type="text/javascript">
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+try{(new g(100,"r","QSI_S_ZN_9QPdWtioy9UtOWp","https://zn9qpdwtioy9utowp-ocbc.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_9QPdWtioy9UtOWp")).start()}catch(i){}})();
+</script><script>
+    try{
+        var intentArrayString = localStorage.getItem('intentArray') || '';
+        if (typeof (intentArrayString) == 'string') {
+            intentArray = intentArrayString.split(",");
+        }
+        var intent1 = intentArray[0] || 'intent';
+        var intent2 = intentArray[1] || 'intent';
+        var intent3 = intentArray[2] || 'intent';
+        var intent4 = intentArray[3] || 'intent';
+		if (window.location.href.indexOf('personal-banking/campaign/luckydrawpromo') > -1) {
+            if (intent1 != "Lucky Draw Promo") {
+                if (intent2 == "Lucky Draw Promo") {
+                    intent2 = intent1;
+                    intent1 = "Lucky Draw Promo";
+                }
+                else if (intent3 == 'Lucky Draw Promo') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Lucky Draw Promo';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Lucky Draw Promo") intent1 = "Lucky Draw Promo";
+                }
+            }
+        }
+		
+		
+       if (window.location.href.indexOf('360-savings-account') > -1) {
+            if (intent1 != "360 Account") {
+                if (intent2 == "360 Account") {
+                    intent2 = intent1;
+                    intent1 = "360 Account";
+                }
+                else if (intent3 == '360 Account') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = '360 Account';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "360 Account") intent1 = "360 Account";
+                }
+            }
+        }
+		 if ((window.location.href.indexOf('/personal-banking/digital-banking/overseas-funds-transfer') > -1) || (window.location.href.indexOf('/personal-banking/digital-banking/sg-bank-account') > -1)) {
+             if (intent1 != "pay-to-wallet") {
+                if (intent2 == "pay-to-wallet") {
+                    intent2 = intent1;
+                    intent1 = "pay-to-wallet";
+                }
+                else if (intent3 == 'pay-to-wallet') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'pay-to-wallet';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "pay-to-wallet") intent1 = "pay-to-wallet";
+                }
+            }
+        }
+        if (window.location.href.indexOf('/personal-banking/campaign/festivejoy') > -1) {
+            if (intent1 != "Festive Joy") {
+                if (intent2 == "Festive Joy") {
+                    intent2 = intent1;
+                    intent1 = "Festive Joy";
+                }
+                else if (intent3 == "Festive Joy") {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = "Festive Joy";
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Festive Joy") intent1 = "Festive Joy";
+                }
+            }
+        }
+        if (window.location.href.indexOf('/personal-banking/digital-banking/pay-to-wallet') > -1) {
+            if (intent1 != "pay-to-wallet") {
+                if (intent2 == "pay-to-wallet") {
+                    intent2 = intent1;
+                    intent1 = "pay-to-wallet";
+                }
+                else if (intent3 == 'pay-to-wallet') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'pay-to-wallet';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "pay-to-wallet") intent1 = "pay-to-wallet";
+                }
+            }
+        }
+        if (window.location.href.indexOf('/personal-banking/start-planning') > -1 || window.location.href.indexOf('/personal-banking/digital-banking/financialoneview') > -1 || window.location.href.indexOf('/personal-banking/digital-banking/money-management') > -1|| window.location.href.indexOf('/group/financial-wellness-index/understand-the-index.html') > -1 || window.location.href.indexOf('/personal-banking/silver-years') > -1){
+            if (intent1 != "Start Planning") {
+                if (intent2 == "Start Planning") {
+                    intent2 = intent1;
+                    intent1 = "Start Planning";
+                }
+                else if (intent3 == 'Start Planning') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Start Planning';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Start Planning") intent1 = "Start Planning";
+                }
+            }
+        }
+        if ((window.location.href.indexOf('personal-banking/deposits/child-development-account') > -1)||window.location.href.indexOf('/personal-banking/deposits/myown-account') > -1 || window.location.href.indexOf('/personal-banking/deposits/monthly-savings-account') > -1 || window.location.href.indexOf('/personal-banking/deposits/passbook-savings-account') > -1|| window.location.href.indexOf('/personal-banking/deposits/statement-passbook-savings-account') > -1|| window.location.href.indexOf('/personal-banking/deposits/basic-current-account') > -1||window.location.href.indexOf('/personal-banking/deposits/mighty-savers-child-savings-account') > -1){
+            if (intent1 != "OCBC MyOwn Account") {
+                if (intent2 == "OCBC MyOwn Account") {
+                    intent2 = intent1;
+                    intent1 = "OCBC MyOwn Account";
+                }
+                else if (intent3 == 'OCBC MyOwn Account') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'OCBC MyOwn Account';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "OCBC MyOwn Account") intent1 = "OCBC MyOwn Account";
+                }
+            }
+        }
+        if (window.location.href.indexOf('/personal-banking/deposits/multi-currency-global-savings-account') > -1){
+            if (intent1 != "Deposit Global Savings") {
+                if (intent2 == "Deposit Global Savings") {
+                    intent2 = intent1;
+                    intent1 = "Deposit Global Savings";
+                }
+                else if (intent3 == 'Deposit Global Savings') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Deposit Global Savings';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Deposit Global Savings") intent1 = "Deposit Global Savings";
+                }
+            }
+        }
+        if (window.location.href.indexOf('/personal-banking/investments/online-equities-account') > -1) {
+            if (intent1 != "OEA") {
+                if (intent2 == "OEA") {
+                    intent2 = intent1;
+                    intent1 = "OEA";
+                }
+                else if (intent3 == 'OEA') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'OEA';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "OEA") intent1 = "OEA";
+                }
+            }
+        }
+  
+        if (window.location.href.indexOf('personal-banking/campaign/travelready') > -1||window.location.href.indexOf('personal-banking/cards/90-degrees-travel-credit-card') > -1||window.location.href.indexOf('personal-banking/cards/card-promotions.page?p=1&main=travelandstays') > -1||window.location.href.indexOf('personal-banking/cards/card-promotions.page?p=1&main=featureddeals') > -1||window.location.href.indexOf('personal-banking/cards/travel-with-ocbc') > -1||window.location.href.indexOf('/digital-banking/digital-solutions-and-services') > -1) {
+            if (intent1 != "Travel Ready") {
+                if (intent2 == "Travel Ready") {
+                    intent2 = intent1;
+                    intent1 = "Travel Ready";
+                }
+                else if (intent3 == 'Travel Ready') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Travel Ready';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Travel Ready") intent1 = "Travel Ready";
+                }
+            }
+        }
+
+        if (window.location.href.indexOf('personal-banking/cards/featured-campaign') > -1||window.location.href.indexOf('personal-banking/cards/rewards-card') > -1) {
+            if (intent1 != "Watsons") {
+                if (intent2 == "Watsons") {
+                    intent2 = intent1;
+                    intent1 = "Watsons";
+                }
+                else if (intent3 == 'Watsons') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Watsons';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Watsons") intent1 = "Watsons";
+                }
+            }
+        }
+        if (window.location.href.indexOf('singapore-malaysia-connection-solutions') > -1) {
+            if (intent1 != "SGMY") {
+                if (intent2 == "SGMY") {
+                    intent2 = intent1;
+                    intent1 = "SGMY";
+                }
+                else if (intent3 == 'SGMY') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'SGMY';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "SGMY") intent1 = "SGMY";
+                }
+            }
+        }
+        if (window.location.href.indexOf('home-loan-repricing') > -1) {
+            if (intent1 != "Home Loan Repricing") {
+                if (intent2 == "Home Loan Repricing") {
+                    intent2 = intent1;
+                    intent1 = "Home Loan Repricing";
+                }
+                else if (intent3 == 'Home Loan Repricing') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Home Loan Repricing';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Home Loan Repricing") intent1 = "Home Loan Repricing";
+                }
+            }
+        }
+     
+        if (window.location.href.indexOf('insurance/great-sp-series') > -1) {
+            if (intent1 != "GSP") {
+                if (intent2 == "GSP") {
+                    intent2 = intent1;
+                    intent1 = "GSP";
+                }
+                else if (intent3 == 'GSP') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'GSP';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "GSP") intent1 = "GSP";
+                }
+            }
+        }
+
+        if (window.location.href.indexOf('cards/365-cashback-credit-card') > -1) {
+            if (intent1 != "365 Credit Card") {
+                if (intent2 == "365 Credit Card") {
+                    intent2 = intent1;
+                    intent1 = "365 Credit Card";
+                }
+                else if (intent3 == '365 Credit Card') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = '365 Credit Card';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "365 Credit Card") intent1 = "365 Credit Card";
+                }
+            }
+        }
+        if (window.location.href.indexOf('investments/precious-metals-account') > -1) {
+            if (intent1 != "PM") {
+                if (intent2 == "PM") {
+                    intent2 = intent1;
+                    intent1 = "PM";
+                }
+                else if (intent3 == 'PM') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'PM';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "PM") intent1 = "PM";
+                }
+            }
+        }
+        if (window.location.href.indexOf('forex-trading') > -1) {
+            if (intent1 != "FX") {
+                if (intent2 == "FX") {
+                    intent2 = intent1;
+                    intent1 = "FX";
+                }
+                else if (intent3 == 'FX') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'FX';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "FX") intent1 = "FX";
+                }
+            }
+        }
+    /*
+        if (window.location.href.indexOf('car-loans') > -1) {
+            if (intent1 != "Car Loan") {
+                if (intent2 == "Car Loan") {
+                    intent2 = intent1;
+                    intent1 = "Car Loan";
+                }
+                else if (intent3 == 'Car Loan') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Car Loan';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Car Loan") intent1 = "Car Loan";
+                }
+            }
+        }
+        */
+        if (window.location.href.indexOf('explorer-travel-insurance') > -1) {
+            if (intent1 != "Explorer") {
+                if (intent2 == "Explorer") {
+                    intent2 = intent1;
+                    intent1 = "Explorer";
+                }
+                else if (intent3 == 'Explorer') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Explorer';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Explorer") intent1 = "Explorer";
+                }
+            }
+        }
+        
+        if (window.location.href.indexOf('new-purchase-of-hdb-private-property') > -1) {
+            if (intent1 != "Home Loan – New Purchase") {
+                if (intent2 == "Home Loan – New Purchase") {
+                    intent2 = intent1;
+                    intent1 = "Home Loan – New Purchase";
+                }
+                else if (intent3 == 'Home Loan – New Purchase') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Home Loan – New Purchase';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Home Loan – New Purchase") intent1 = "Home Loan – New Purchase";
+                }
+            }
+        }
+        
+        if (window.location.href.indexOf('refinancing-home-loan') > -1) {
+            if (intent1 != "Home Loan Refinance") {
+                if (intent2 == "Home Loan Refinance") {
+                    intent2 = intent1;
+                    intent1 = "Home Loan Refinance";
+                }
+                else if (intent3 == 'Home Loan Refinance') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Home Loan Refinance';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Home Loan Refinance") intent1 = "Home Loan Refinance";
+                }
+            }
+        }
+        
+
+        
+     if (window.location.href.indexOf('bonus-plus-savings-account') > -1) {
+            if (intent1 != "Deposit Bonus Plus") {
+                if (intent2 == "Deposit Bonus Plus") {
+                    intent2 = intent1;
+                    intent1 = "Deposit Bonus Plus";
+                }
+                else if (intent3 == 'Deposit Bonus Plus') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Deposit Bonus Plus';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Deposit Bonus Plus") intent1 = "Deposit Bonus Plus";
+                }
+            }
+        }
+        
+     /*   
+      if (window.location.href.indexOf('mighty-savers-child-savings-account') > -1) {
+            if (intent1 != "Deposit - Mighty Savers") {
+                if (intent2 == "Deposit - Mighty Savers") {
+                    intent2 = intent1;
+                    intent1 = "Deposit - Mighty Savers";
+                }
+                else if (intent3 == 'Deposit - Mighty Savers') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Deposit - Mighty Savers';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Deposit - Mighty Savers") intent1 = "Deposit - Mighty Savers";
+                }
+            }
+        }
+        */
+        
+   /*     if (window.location.href.indexOf('child-development-account') > -1) {
+            if (intent1 != "Deposit-CDA") {
+                if (intent2 == "Deposit-CDA") {
+                    intent2 = intent1;
+                    intent1 = "Deposit-CDA";
+                }
+                else if (intent3 == 'Deposit-CDA') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Deposit-CDA';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Deposit-CDA") intent1 = "Deposit-CDA";
+                }
+            }
+        }*/
+        
+        if ((window.location.href.indexOf('unit-trusts/what-are-unit-trusts') > -1) || (window.location.href.indexOf('/unit-trusts/funds-details') > -1)) {
+            if (intent1 != "UT investment") {
+                if (intent2 == "UT investment") {
+                    intent2 = intent1;
+                    intent1 = "UT investment";
+                }
+                else if (intent3 == 'UT investment') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'UT investment';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "UT investment") intent1 = "UT investment";
+                }
+            }
+        }
+        
+        if (window.location.href.indexOf('/roboinvest') > -1) {
+            if (intent1 != "Robo invest") {
+                if (intent2 == "Robo invest") {
+                    intent2 = intent1;
+                    intent1 = "Robo invest";
+                }
+                else if (intent3 == 'Robo invest') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Robo invest';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Robo invest") intent1 = "Robo invest";
+                }
+            }
+        }
+        
+        if (window.location.href.indexOf('investments/apply-bcip') > -1||window.location.href.indexOf('investments/blue-chip-investment-plan')>-1) {
+            if (intent1 != "BCIP") {
+                if (intent2 == "BCIP") {
+                    intent2 = intent1;
+                    intent1 = "BCIP";
+                }
+                else if (intent3 == 'BCIP') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'BCIP';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "BCIP") intent1 = "BCIP";
+                }
+            }
+        }
+        
+        if (window.location.href.indexOf('fixed-deposit-account') > -1) {
+            if (intent1 != "Time Deposit") {
+                if (intent2 == "Time Deposit") {
+                    intent2 = intent1;
+                    intent1 = "Time Deposit";
+                }
+                else if (intent3 == 'Time Deposit') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Time Deposit';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Time Deposit") intent1 = "Time Deposit";
+                }
+            }
+        }
+        
+      /*  if (window.location.href.indexOf('/home-renovation-loan') > -1) {
+            if (intent1 != "Reno Loan") {
+                if (intent2 == "Reno Loan") {
+                    intent2 = intent1;
+                    intent1 = "Reno Loan";
+                }
+                else if (intent3 == 'Reno Loan') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Reno Loan';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Reno Loan") intent1 = "Reno Loan";
+                }
+            }
+        } */
+        
+        if (window.location.href.indexOf('/interest-free-instalments-paylite') > -1) {
+            //PAYLITE
+            if (intent1 != "PAYLITE") {
+                if (intent2 == "PAYLITE") {
+                    intent2 = intent1;
+                    intent1 = "PAYLITE";
+                }
+                else if (intent3 == 'PAYLITE') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'PAYLITE';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "PAYLITE") intent1 = "PAYLITE";
+                }
+            }
+                
+            
+        }
+            if (window.location.href.indexOf('/cash-on-instalments-fixed-repayment') > -1) {
+            //PAYLITE
+            if (intent1 != "COI") {
+                if (intent2 == "COI") {
+                    intent2 = intent1;
+                    intent1 = "COI";
+                }
+                else if (intent3 == 'COI') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'COI';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "COI") intent1 = "COI";
+                }
+            }
+                
+            
+        }
+      
+        if (window.location.href.indexOf('autowise-car-insurance') > -1) {
+            //AutoWise
+            if (intent1 != "AutoWise") {
+                if (intent2 == "AutoWise") {
+                    intent2 = intent1;
+                    intent1 = "AutoWise";
+                }
+                else if (intent3 == 'AutoWise') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'AutoWise';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "AutoWise") intent1 = "AutoWise";
+                }
+            }
+    
+        }
+        if (window.location.href.indexOf('balance-transfer-flexible-repayment-cash-loan') > -1) {
+            //Balance Transfer
+            if (intent1 != "Balance Transfer") {
+                if (intent2 == "Balance Transfer") {
+                    intent2 = intent1;
+                    intent1 = "Balance Transfer";
+                }
+                else if (intent3 == 'Balance Transfer') {
+                    intent3 = intent2;
+                    intent2 = intent1;
+                    intent1 = 'Balance Transfer';
+                }
+                else {
+                    if (intent4 != intent3) intent4 = intent3;
+                    if (intent3 != intent2) intent3 = intent2;
+                    if (intent2 != intent1) intent2 = intent1;
+                    if (intent1 != "Balance Transfer") intent1 = "Balance Transfer";
+                }
+            }
+    
+        }
+        localStorage.setItem('intentArray', [intent1, intent2, intent3, intent4, new Date()]);
+        
+        
+        if (window.location.href.indexOf('new-purchase-of-hdb-private-property') > -1) {
+            document.querySelector("a[cta-id='Loans-New-home-Apply-Online-Masthead']").addEventListener("click", function () {
+                if (intent1 == 'Home Loan – New Purchase') {
+                    intent1 = intent2;
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent2 == 'Home Loan – New Purchase') {
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent3 == 'Home Loan – New Purchase') {
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent4 == 'Home Loan – New Purchase') {
+                    intent4 = '';
+                }
+                localStorage.setItem('intentArray', [intent1, intent2, intent3, intent4, new Date()]);
+            });
+        }
+        
+        if (window.location.href.indexOf('/what-are-unit-trusts') > -1) {
+            document.querySelector("a[cta-id='Investment-UnitTrust-InvestOnline-Masthead']").addEventListener("click", function () {
+                if (intent1 == 'UT investment') {
+                    intent1 = intent2;
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent2 == 'UT investment') {
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent3 == 'UT investment') {
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent4 == 'UT investment') {
+                    intent4 = '';
+                }
+                localStorage.setItem('intentArray', [intent1, intent2, intent3, intent4, new Date()]);
+            });
+        }
+        
+        
+     /*   if (window.location.href.indexOf('bonus-plus-savings-account') > -1) {
+            document.querySelector("a[cta-id='Deposit-Bonusplus-Apply-online-masthead']").addEventListener("click", function () {
+                if (intent1 == 'Deposit Bonus Plus') {
+                    intent1 = intent2;
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent2 == 'Deposit Bonus Plus') {
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent3 == 'Deposit Bonus Plus') {
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent4 == 'Deposit Bonus Plus') {
+                    intent4 = '';
+                }
+                localStorage.setItem('intentArray', [intent1, intent2, intent3, intent4, new Date()]);
+            });
+        }*/
+        
+      /*  if (window.location.href.indexOf('mighty-savers-child-savings-account') > -1) {
+            document.querySelector("a[cta-id='Deposits-MSA-How-To-Apply-Masthead']").addEventListener("click", function () {
+                if (intent2 == 'Deposit - Mighty Savers') {
+                    intent1 = intent2;
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent2 == 'Deposit - Mighty Savers') {
+                    intent2 = intent3;
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent3 == 'Deposit - Mighty Savers') {
+                    intent3 = intent4;
+                    intent4 = '';
+                }
+                else if (intent4 == 'Deposit - Mighty Savers') {
+                    intent4 = '';
+                }
+                localStorage.setItem('intentArray', [intent1, intent2, intent3, intent4, new Date()]);
+            });
+        }*/
+        
+    }
+    catch(e){
+        console.log("error from AT",e)
+    }
+ 
+    </script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/822276054/?random=1743875646237&amp;cv=11&amp;fst=1743875646237&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148z8831161492za201zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102788824~102803279~102813109~102887799~102926062~102964334~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;_tu=Cg&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><link href="/iwov-resources/sg/ocbc/personal/favicon/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/><link href="/iwov-resources/sg/ocbc/personal/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="/iwov-resources/sg/ocbc/personal/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/><link href="/iwov-resources/sg/ocbc/personal/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><style>.custom__calculator-loan .material-form-control.filled .label, .custom__calculator-loan .material-form-control:not(.is-empty) input:not(:placeholder-shown) ~ .label, .custom__calculator-loan .material-form-control input:focus ~ .label {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.custom__calculator-loan .material-form-control.filled .label, .custom__calculator-loan .material-form-control:not(.is-empty) input:not(-ms-input-placeholder) ~ .label, .custom__calculator-loan .material-form-control input:focus ~ .label {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}</style><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RC67771a99ffb3481098c0637f68b3b9da-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RC751c7cc262f04c9197a67a2e267da924-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RC4d0a20dda1b64a8b93d1367f218fa81e-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RCdb3703079dea4d0b9498c603adbc7025-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RCb2b046c468fd42ce8085f812887de6ea-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RC827a584f086c445ea3aee9d53d7b0aec-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RCdc78d69d27564ef88ec706f298e7cde6-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RCe8dfab57d2834c3eb27952e58d6cc5bc-source.min.js"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RC105235e685cd4593895df3762e6e6fd8-source.min.js"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/819584299/?random=1743875647271&amp;cv=11&amp;fst=1743875647271&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><style>#main-wrapper {position: relative;}#chatbot {position: fixed;bottom: 40px;right: 40px;width: auto;height: auto;cursor: pointer;transition: width linear 0.5s;border: none;z-index: 999;}#chatbot .icon-float { background-color: #CB2D3E; background: linear-gradient(90deg, #CB2D3E, #E30613); padding: 15px 15px 15px 19px; font-size: 16px; line-height: 26px; font-weight: 700; color: white; border-radius: 36px; }#chatbot .iframe-parent { z-index: -1; opacity: 0; width: 100%; height: 100%; transition: opacity linear 0.1s; position: absolute; bottom: 0; right: 0; }#chatbot img { width: 26px; margin-right: 12px; }#chatbot i { font-size: 16px; line-height: 26px; color: white; padding-right: 12px; }#chatbot .text { width: 89px; overflow: hidden; opacity: 1; }#chatbot .icon, #chatbot .text { line-height: 26px; transition: width linear 0.3s, opacity linear 0.6s; }#chatbot.scrolled .icon i { padding-right: 4px; }#chatbot.scrolled .icon img { margin-right: 4px; }#chatbot.scrolled .text { width: 0; opacity: 0; }#chatbot.active {width: 100%; max-width: 375px; height: 80vh; max-height: 700px; }#chatbot.active .icon-float { display: none !important; }#chatbot.active .iframe-parent { opacity: 1; }#chatbot.active, #chatbot.active iframe { border-radius: 16px; }#chatbot.active iframe {display: block; width: 100%; height: 100%; background-color: #ffffff; }</style><style>@media (min-width: 768px) { #chatbot.scrolled:hover .text { width: 89px; opacity: 1; } #chatbot.scrolled:hover .icon i { padding-right: 12px; } }</style><style>@media (max-width: 767px) { #chatbot { bottom: 16px; right: 16px; padding-bottom: 0 !important; }   #chatbot.active { height: 100%; max-width: 100%; max-height: calc(100vh - 40px); bottom: 0px; right: 0px; } #chatbot.active, #chatbot.active iframe { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }    body.chatbot-active::before { content: ''; display: block; position: absolute; width: 100%; height: 100%; background-color: #39474E; opacity: 0.2; z-index: 999; }}</style><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16564362591/?random=1743875647573&amp;cv=11&amp;fst=1743875647573&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v9207136235za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509683~102788824~102803279~102813109~102887800~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/822276054/?random=1743875647632&amp;cv=11&amp;fst=1743875647632&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11101540195/?random=1743875647651&amp;cv=11&amp;fst=1743875647651&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10864436965/?random=1743875647654&amp;cv=11&amp;fst=1743875647654&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16686637722/?random=1743875647660&amp;cv=11&amp;fst=1743875647660&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16655072544/?random=1743875647663&amp;cv=11&amp;fst=1743875647663&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/822276054/?random=1743875647667&amp;cv=11&amp;fst=1743875647667&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v890911148za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509682~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dpage_view&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16543464347/?random=1743875647684&amp;cv=11&amp;fst=1743875647684&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v9188307835za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" attributionsrc="" src="https://www.googleadservices.com/pagead/conversion/16543464347/?random=1743875647704&amp;cv=11&amp;fst=1743875647704&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gcl_ctr=1&amp;gtm=45be5421v9188307835za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;label=FL27CNfatasZEJv3xNA9&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;gtm_ee=1&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;ec_mode=a&amp;fledge=1&amp;capi=1&amp;data=event%3Dconversion&amp;em=tv.1&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/819557438/?random=1743875647729&amp;cv=11&amp;fst=1743875647729&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5421v9103163683za200zb831161492&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=102509683~102788824~102803279~102813109~102887799~102926062~102975949~103016951~103021830~103027016&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fwww.ocbc.com%2Fpersonal-banking%2Fdeposits%2F360-savings-account%3Fpid%3DMass%3Aaccounts%3A360Acc%3AAlwaysOn%3AAcquisition%3ASep%3A2022%3Ainternal%3A%3A%3Apeb-banner%3Aevergreen%3A%3A%3ACFSPersonalise&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OCBC%20360%20Account%20%7C%20High%20Interest%20Savings%20Account%20%7C%20Salary%20Crediting&amp;npa=0&amp;pscdl=noapi&amp;auid=486179704.1743875646&amp;uaa=arm&amp;uab=64&amp;uafvl=Chromium%3B134.0.6998.166%7CNot%253AA-Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B134.0.6998.166&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13.5.1&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" data-ueto="ueto_c55af84ddc" src="https://bat.bing.com/p/action/187121601.js" type="text/javascript"></script><script async="" src="https://assets.adobedtm.com/f8f9776f70c5/0bff5181279c/6f750d14b163/RCb22de2330380473f9024929587fda696-source.min.js"></script><script charset="utf-8" src="https://siteintercept.qualtrics.com/dxjsmodule/8.7128e66c4069227926d7.chunk.js?Q_CLIENTVERSION=2.27.0&amp;Q_CLIENTTYPE=web&amp;Q_BRANDID=www.ocbc.com"></script><script charset="utf-8" src="https://siteintercept.qualtrics.com/dxjsmodule/5.76657644fe1b73dc4306.chunk.js?Q_CLIENTVERSION=2.27.0&amp;Q_CLIENTTYPE=web&amp;Q_BRANDID=ocbc"></script><script charset="utf-8" src="https://siteintercept.qualtrics.com/dxjsmodule/1.63482081f3bf73c57075.chunk.js?Q_CLIENTVERSION=2.27.0&amp;Q_CLIENTTYPE=web&amp;Q_BRANDID=ocbc"></script></head><body class="js_init page-personal-banking page-deposits domain-ocbc page-theme--grey chatbot-loaded" id=""><div id="ZN_9QPdWtioy9UtOWp"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END WEBSITE FEEDBACK SNIPPET--><!--ls:headBottomEnd[script]-->
+<!--ls:begin[body]--><!--ls:begin[body_injection_top]--><script>
+    var ocbcData = {
+        page: {
+            pageName: "sg:ocbc:personal:accounts:360 account:application:overview",
+            language: "en",
+            pageCategory: "pre-login application page",
+            bannerName: "maximise your interest with 360 account",
+            channel: "accounts",
+            country: "sg",
+            lob: "ocbc personal banking",
+            pageType: 'product-detail',
+            platform: "web"
+        },
+          application: {
+              applicationId:"",
+              flowStep: "prodView",
+              flowType: "accounts flow",
+              journeyName: "casa application form",
+              subJourneyName:"",
+              applicationStatus: "",
+              myInfoStatus: "",
+              applicationRetrieveStatus: ""
+          },
+          product: {
+              productid: "SJ",
+              productCategory: "account",
+              productSubCategory: "day-to-day banking",
+              productType: "bank accounts",
+              productName: "360 account"
+          },
+        user: {
+            CIF: "",
+            loginStatus: "pre-login"
+        },
+        event: {
+            pageView: "true",
+            bannerImpression: "true"
+        }
+    };
+    </script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "BankAccount",
+"name": "OCBC 360 Savings Account",
+"description": "A high-interest savings account that gives bonus interest if you credit your salary, increase your account balance, spend, insure or invest with OCBC.",
+"url": "https://www.ocbc.com/personal-banking/deposits/360-savings-account"
+}
+</script>
+<script type="application/ld+json"> {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"360 Savings Account","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","ratingCount":"2199"}}
+</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [{
+"@type": "Question",
+"name": "How different is the OCBC 360 Account from other savings or current accounts?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "<p>The OCBC 360 Account is a deposit account that pays you bonus interest when you do all or any of these:</p>
+<ul>
+<li>Credit your salary through GIRO</li>
+<li>Save and increase your account balance</li>
+<li>Insure with OCBC</li>
+<li>Invest with OCBC</li>
+</ul>
+<p>The account comes with e-statements and you can choose to have a cheque book.</p>"
+}
+},{
+"@type": "Question",
+"name": "How is the interest calculated?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "<p>You get 2 types of interest on your account balance every month.</p>
+<p><strong>Base interest:</strong> <br>This interest is accrued daily based on your account's day-end balance and you will receive this at the end of the month.</p>
+<p><strong>Bonus interest:</strong> <br>For the FIVE types of bonus below, you will earn bonus interest at 3 tiers based on your account balance, up to the first S$75,000:</p>
+<ol>
+<li>Earn up to 1.2% a year for crediting your salary of at least S$1,800 through GIRO and/or</li>
+<li>Earn up to 0.4% a year for increasing your account average daily balance by S$500 from the previous month and/or</li>
+<li>Earn up to 1.2% a year for 12 consecutive months when you purchase an eligible insurance product from OCBC and/or</li>
+<li>Earn up to 1.2% a year for 12 consecutive months when you purchase an eligible investment product from OCBC and/or</li>
+<li>Earn 0.4% a year if your account average daily balance is S$200,000 or more.</li>
+</ol>
+
+<p><small><i>For illustration purpose:</i></small></p>
+<table>
+<tbody>
+<tr>
+<th class='col2'>Bonus Interest Categories</th>
+<th class='col2'>Maximum interest earned a year<sup>1</sup></th>
+</tr>
+<tr>
+<td>SALARY</td>
+<td>S$525</td>
+</tr>
+<tr>
+<td>SAVE</td>
+<td>S$175</td>
+</tr>
+<tr>
+<td>INSURE</td>
+<td>S$525</td>
+</tr>
+<tr>
+<td>INVEST</td>
+<td>S$525</td>
+</tr>
+<tr>
+<td>GROW</td>
+<td>S$300</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td>S$2,050</td>
+</tr>
+</tbody>
+</table>
+
+<p><small><sup>1</sup></small> The maximum interest earned is computed based on the effective interest rate of the respective bonus interest categories and the bonus interest balance cap, based on a 365 day calendar year.</p>
+
+<p>Please refer to the <a class='link' href='#section-interestcalculator' auto-scroll='true'>calculator</a> to find out more.</p>"
+}
+},{
+"@type": "Question",
+"name": "How will I know that the bonus interest is credited to my 360 Account?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "<p>Your bonus interest will be reflected in your e-statement, Online Banking and Mobile Banking transaction history as follows</p>
+<ul>
+<li><strong>360 SALARY BONUS</strong></li>
+<li><strong>360 SAVE BONUS</strong></li>
+<li><strong>360 INSURE BONUS</strong></li>
+<li><strong>360 INVEST BONUS</strong></li>
+<li><strong>360 GROW BONUS</strong></li>
+</ul>
+<p>If you close your account before the bonus interest crediting date, the bonus interest for the previous month will be forfeited.</p>"
+}
+},{
+"@type": "Question",
+"name": "Can I open more than one 360 Account?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Each customer is only allowed to open ONE OCBC 360 Account where he/she is the Primary Account holder. The signing mandate can be either signed singly or joint alternate."
+}
+}]
+}
+</script><!--ls:end[body_injection_top]--><!--ls:begin[analytics-body-top]--><!--ls:end[analytics-body-top]--><div class="iw_viewport-wrapper"><div class="container-fluid iw_section" id="sectionjztq8wo2">
+<div class="row iw_row iw_stretch" id="rowjztq8wo3">
+<div class="iw_columns col-lg-12" id="coljztq8wo4">
+<div class="iw_component" id="iw_comp1566904104289">
+<header class="" id="header">
+<div class="header__main">
+<div class="container bp-width-med3">
+<div class="header__row row align-items-center justify-content-between">
+<div class="header__logo col-12 col-sm-12 col-lg-2">
+<div class="logo fl bp-img wide"><a href="https://www.ocbc.com" target="_self"><img alt="OCBC Singapore" src="/iwov-resources/sg/ocbc/personal/img/logo_ocbc.png"/></a></div>
+<div class="clr"></div>
+</div>
+<div class="header__mobile col-12 col-sm-12 col-lg-10">
+<div class="header__main--primary">
+<div class="d-flex justify-content-start flex-column flex-lg-row flex-center justify-content-lg-between">
+<hr class="first"/>
+<div class="header__main--navi flex-fill">
+<ul>
+<li class="selected"><a class="header__navi" href="#accounts">Accounts</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#cards">Cards</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#loans">Loans</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#insurance">Insurance</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#investments">Investments</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#advisory">Advisory</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<div class="header__main--navi flex-fill">
+<ul>
+<li><a class="header__navi" href="#more">More</a></li>
+<li class="divider"></li>
+</ul>
+</div>
+<hr class="last"/>
+<div class="header__main--action d-none d-lg-inline">
+<div class="page__opt1"><a class="link" cta-id="PersonalBanking-navbar-login" href="https://internet.ocbc.com/internet-banking/" target="_blank">Login</a></div>
+<div class="page__opt2">
+<div class="d-none d-md-inline-block"><a class="button button--secondary button--red" cta-id="Deposits-Header-LoginOnlineBanking-Button" href="https://internet.ocbc.com/internet-banking/" target="_blank">Login to online banking</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="header__main--secondary">
+<div class="d-flex justify-content-lg-between">
+<div class="header__main--web-location">
+<div>
+<p>You are in</p>
+<div class="dropdown__theme dropdown__theme--3 dropdown__theme--bold"><select class="selectize selectized" id="header__page_location" name="header-page-location" style="display: none;" tabindex="-1"><option selected="selected" value="/personal-banking/home">Personal Banking</option></select><div class="selectize-control selectize single"><div class="selectize-input items full has-options has-items"><div class="item" data-value="/personal-banking/home" target="undefined">Personal Banking</div><input autocomplete="off" id="header__page_location-selectized" style="width: 4px;" tabindex="" type="select-one"/></div></div></div>
+</div>
+<hr/>
+<div class="selectize-dropdown single selectize" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
+<div class="header__main--web-etc">
+<ul>
+<li><a class="" cta-id="PersonalBanking-navbar-premierbanking" href="/personal-banking/premier/en" target="_blank">Premier Banking</a></li>
+<li><a class="" cta-id="PersonalBanking-navbar-digitalbanking" href="/personal-banking/digital-banking" target="_self">Digital Banking</a></li>
+<li><a class="" cta-id="PersonalBanking-navbar-security-overview" href="/personal-banking/security/overview" target="_self">Security</a></li>
+<li><a class="" cta-id="PersonalBanking-navbar-locations-overview" href="/personal-banking/locations" target="_self">Branches &amp; ATMs</a></li>
+<li><a class="" cta-id="PersonalBanking-navbar-gethelp" href="/personal-banking/help-and-support" target="_self">Get help</a></li>
+</ul>
+</div>
+</div>
+<hr/>
+</div>
+</div>
+<div class="header__mobile--bar d-lg-none d-block">
+<div class="header__main--action">
+<div class="page__opt1"><a class="link" cta-id="PersonalBanking-navbar-login" href="https://internet.ocbc.com/internet-banking/" target="_blank">Login</a></div>
+<div class="page__opt2">
+<div class="d-none d-md-inline-block"><a class="button button--secondary button--red" cta-id="Deposits-Header-LoginOnlineBanking-Button" href="https://internet.ocbc.com/internet-banking/" target="_blank">Login to online banking</a></div>
+</div>
+</div>
+<div class="menu-bar"><span></span><span></span></div>
+</div>
+</div>
+</div>
+</div>
+<!--googleoff: index-->
+<div class="header__sub" data-nosnippet="">
+<div class="container bp-width-med3">
+<div class="header__hidden" style="display: block;">
+<div class="header__sub--view">
+<div class="header__row row" id="accounts">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Accounts</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Day-to-day Banking</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Accounts-megamenu-360Account" href="/personal-banking/deposits/360-savings-account" target="_self">360  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Savings</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Accounts-megamenu-BonusPlusSavingsAccount" href="/personal-banking/deposits/bonus-plus-savings-account" target="_self">Bonus+ Savings  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Foreign Currency</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Accounts-megamenu-GlobalSavingsAccount" href="/personal-banking/deposits/multi-currency-global-savings-account" target="_self">Global Savings  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Children's Account</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Accounts-megamenu-OCBCMyOwnAccount" href="/personal-banking/deposits/myown-account" target="_self">OCBC MyOwn  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-readmore d-flex align-items-center"><a class="button button--secondary button--link" cta-id="PersonalBanking-navbar-Accounts-megamenu-SeeAllAccounts" href="/personal-banking/deposits" target="_self"><span>See all accounts</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-featured">
+<div class="row">
+<div class="col-lg-2 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-6"><img alt="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar-kv-stitch-promo.jpg"/></div>
+<div class="col-lg-4">
+<div class="tag">Win a family trip to Hawaii with OCBC</div>
+<div class="header__sub-menu-link">
+<p class="mb-3">Save or spend your way to a Disney’s Lilo &amp; Stitch inspired family vacation in Hawaii! Valid from 1 April to 30 June 2025.</p>
+<p style="font-size: 12px;">T&amp;Cs apply. Insured up to S$100k by SDIC.</p>
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" href="/personal-banking/campaign/luckydrawpromo" target="_self">Find out  <span class="text-nowrap">more<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header__row row" id="cards">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Cards</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item header__sub-menu-with-image">
+<div class="header__sub-menu-item-image"><img alt="" class="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar_cardface-infinity.png"/></div>
+<div class="header__sub-menu-item-text">
+<div class="tag">Unlimited cashback on your spending</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Cards-megamenu-INFINITYCC" href="https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card" target="_self">OCBC INFINITY Cashback  <span class="text-nowrap">Card<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item header__sub-menu-with-image">
+<div class="header__sub-menu-item-image"><img alt="" class="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar_cardface-365visacc.png"/></div>
+<div class="header__sub-menu-item-text">
+<div class="tag">For everyday spending</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Cards-megamenu-365CC" href="/personal-banking/cards/365-cashback-credit-card" target="_self">OCBC 365 Credit  <span class="text-nowrap">Card<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item header__sub-menu-with-image">
+<div class="header__sub-menu-item-image"><img alt="" class="" src="/iwov-resources/sg/ocbc/personal/img/live/cards/rewards-card/rewardscard-noshadow.png"/></div>
+<div class="header__sub-menu-item-text">
+<div class="tag">Get rewarded for shopping</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Cards-megamenu-OCBCRewardsCard" href="/personal-banking/cards/rewards-card" target="_self">OCBC Rewards  <span class="text-nowrap">Card<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item header__sub-menu-with-image">
+<div class="header__sub-menu-item-image"><img alt="" class="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar_cardface-90n.png"/></div>
+<div class="header__sub-menu-item-text">
+<div class="tag">Daily spend for future travels</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Cards-megamenu-90NCard" href="/personal-banking/cards/90-degrees-travel-credit-card.page" target="_self">OCBC 90°N  <span class="text-nowrap">Card<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-readmore d-flex align-items-center"><a class="button button--secondary button--link" cta-id="PersonalBanking-navbar-Cards-megamenu-SeeAllCards" href="/personal-banking/cards" target="_self"><span>See all cards</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-featured">
+<div class="row">
+<div class="col-lg-2 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-6"><img alt="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar-kv-stitch-promo.jpg"/></div>
+<div class="col-lg-4">
+<div class="tag">Win a family trip to Hawaii with OCBC</div>
+<div class="header__sub-menu-link">
+<p class="mb-3">Save or spend your way to a Disney’s Lilo &amp; Stitch inspired family vacation in Hawaii! Valid from 1 April to 30 June 2025.</p>
+<p style="font-size: 12px;">T&amp;Cs apply. Insured up to S$100k by SDIC.</p>
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" href="/personal-banking/campaign/luckydrawpromo" target="_self">Find out  <span class="text-nowrap">more<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header__row row" id="loans">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Loans</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Personal</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Loans-megamenu-EasiCredit" href="/personal-banking/loans/easicredit-flexible-repayment-cash-loan" target="_self"> <span class="text-nowrap">EasiCredit<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Home</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Loans-megamenu-HomeLoanNewPurchase" href="/personal-banking/loans/new-purchase-of-hdb-private-property" target="_self">New  <span class="text-nowrap">Purchase<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Car</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Loans-megamenu-CarLoan" href="/personal-banking/loans/car-loans" target="_self">Car  <span class="text-nowrap">Loan<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Student</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Loans-megamenu-FRANKTuitionFeeLoan" href="https://frankbyocbc.com/products/investments/tuition-fee-loan" target="_blank">Tuition Fee  <span class="text-nowrap">Loan<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-readmore d-flex align-items-center"><a class="button button--secondary button--link" cta-id="PersonalBanking-navbar-Loans-megamenu-SeeAllLoans" href="/personal-banking/loans" target="_self"><span>See all loans</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row"></div>
+</div>
+</div>
+</div>
+<div class="header__row row" id="insurance">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Insurance</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Investment-linked</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Insurance-megamenu-InvestmentLinkedInsurancePlan2" href="/personal-banking/insurance/investment-linked-insurance-plan-2" target="_self">Investment-linked Insurance Plan  <span class="text-nowrap">2<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Accident &amp; Health</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Insurance-megamenu-GREATCareShield" href="/personal-banking/insurance/great-careshield" target="_self">GREAT  <span class="text-nowrap">CareShield<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Protection</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Insurance-megamenu-GREATTermGuard" href="/personal-banking/insurance/great-term-guard" target="_self">GREAT Term  <span class="text-nowrap">Guard<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Travel, Home &amp; Car</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Insurance-megamenu-Explorer" href="/personal-banking/insurance/explorer-travel-insurance" target="_self">Explorer Travel  <span class="text-nowrap">Insurance<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-readmore d-flex align-items-center"><a class="button button--secondary button--link" cta-id="PersonalBanking-navbar-Insurance-megamenu-SeeAllInsurances" href="/personal-banking/insurance" target="_self"><span>See all insurances</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-featured">
+<div class="row">
+<div class="col-lg-2 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-6"><img alt="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar_kv-insurance-boost.jpg"/></div>
+<div class="col-lg-4">
+<div class="tag"><span class="co-black">Up to $1,000 cash reward when you apply for selected eligible insurance plans.</span></div>
+<div class="header__sub-menu-link">
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Insurance-megamenu-CNYPromo2023" href="/personal-banking/insurance#section-promo" target="_self">Learn  <span class="text-nowrap">more<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header__row row" id="investments">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Investments</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Top fund ideas</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-UnitTrusts" href="/personal-banking/investments/unit-trusts/what-are-unit-trusts" target="_self">Unit  <span class="text-nowrap">Trusts<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Trade across 15 global exchanges</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-OnlineEquitiesAccount" href="/personal-banking/investments/online-equities-account" target="_self">Online Equities  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">38 portfolios from just 100 USD</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-OCBCRoboInvest" href="/personal-banking/investments/roboinvest" target="_self">OCBC  <span class="text-nowrap">RoboInvest<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text">
+<div class="tag">Diversify with gold &amp; silver</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-PreciousMetalAccount" href="/personal-banking/investments/precious-metals-account" target="_self">Precious Metals  <span class="text-nowrap">Account<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-readmore d-flex align-items-center"><a class="button button--secondary button--link" cta-id="PersonalBanking-navbar-Investments-megamenu-SeeAllInvestments" href="/personal-banking/investments" target="_self"><span>See all investments</span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row">
+<div class="col-lg-6">
+<div class="header__sub-menu-articles">
+<div class="row">
+<div class="col-lg-4 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-8">
+<div class="tag">Foreign Currency Exchange</div>
+<div class="header__sub-menu-link">
+<p>Conveniently and securely exchange AUD, CAD, CHF<strong><sup style="color: #e30613 !important;">NEW</sup></strong>, CNH, EUR, GBP, HKD, JPY, NZD and USD, 24/7 via OCBC Digital, for your overseas transfer, travel payments, online spends, investments and more.</p>
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-ForeignCurrencyExchange" href="/personal-banking/investments/forex-trading" target="_self">Learn  <span class="text-nowrap">more<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-menu-articles">
+<div class="row">
+<div class="col-lg-4 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-8">
+<div class="tag">Supplementary Retirement Scheme (SRS)</div>
+<div class="header__sub-menu-link">
+<p>Reduce your taxable income by the same amount contributed to your SRS Account, with a maximum yearly contribution of S$15,300 for Singaporeans and Singapore PRs, and S$35,700 for foreigners.</p>
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Investments-megamenu-SupplementaryRetirementScheme" href="/personal-banking/investments/supplementary-retirement-scheme-account" target="_blank">Learn  <span class="text-nowrap">more<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header__row row" id="advisory">
+<div class="col-lg-12 d-block d-lg-none">
+<div class="header__sub-mobile-section">Advisory</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-left">
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text d-flex flex-column-reverse">
+<div class="tag">Soon, you'll be starting a new chapter of your life — your Silver Years.</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Advisory-megamenu-SilverYears" href="/personal-banking/silver-years" target="_self">Silver  <span class="text-nowrap">Years<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text d-flex flex-column-reverse">
+<div class="tag">Achieve your goals with proper financial planning.</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Advisory-megamenu-LifeGoals" href="/personal-banking/start-planning" target="_self">Life  <span class="text-nowrap">Goals<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-lg-6">
+<div class="header__sub-menu-item">
+<div class="header__sub-menu-item-text d-flex flex-column-reverse">
+<div class="tag">Get data and insights into the financial wellness of Singaporeans.</div>
+<div class="name"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Advisory-megamenu-FinancialWellnessIndex2023" href="/group/financial-wellness-index/understand-the-index.html" target="_blank">Financial Wellness Index  <span class="text-nowrap">2023<i class="far fa-chevron-right"></i></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="header__sub-right">
+<div class="row">
+<div class="col-lg-12">
+<div class="header__sub-menu-featured">
+<div class="row">
+<div class="col-lg-2 line-wrapper">
+<div class="line"></div>
+</div>
+<div class="col-lg-6"><img alt="" src="/iwov-resources/sg/ocbc/personal/img/live/navbar_startplanning.jpg"/></div>
+<div class="col-lg-4">
+<div class="tag">Start planning and get ahead with OCBC</div>
+<div class="header__sub-menu-link">
+<p>From financial planning tools, investment options and insurance, our comprehensive array of solutions have been built to get you ahead in your every goal and ambition.</p>
+</div>
+<div class="header__sub-menu-readmore"><a class="link link link-arrow-right" cta-id="PersonalBanking-navbar-Campaign-megamenu-StartPlanning" href="/personal-banking/start-planning" target="_self">Start planning  <span class="text-nowrap"...(truncated)
