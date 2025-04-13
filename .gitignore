@@ -1,3 +1,9 @@
+# Personal Files (Arnold)
+Personal Data
+best_bert_model.pt
+best_finbert_model
+*/bert/data/extracted-data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
