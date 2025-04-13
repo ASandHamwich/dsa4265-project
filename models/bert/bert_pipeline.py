@@ -44,7 +44,7 @@ def merge_predictions_with_df(transactions_df: pd.DataFrame, predictions: list[d
 
     return transactions_df
 
-def generate_transaction_json(df: pd.DataFrame) -> dict:
+def generate_transaction_dict(df: pd.DataFrame) -> dict:
     df["amount"] = df["amount"].astype(float)
     df["confidence"] = df["confidence"].astype(float)
 
@@ -98,10 +98,16 @@ def classify_statement(pdf_path):
 
 def process_statement_pipeline(pdf_path):
     final_df = classify_statement(pdf_path)
-    financial_data = generate_insights(final_df)
-    final_json = generate_transaction_json(final_df)
-    
-    return financial_data, final_json
+
+    # Generate dictionary structures
+    financial_data_dict = generate_insights(final_df)
+    transactions_data_dict = generate_transaction_dict(final_df)
+
+    # Convert to JSON strings
+    financial_data_json = json.dumps(financial_data_dict, indent=2)
+    transactions_json = json.dumps(transactions_data_dict, indent=2)
+
+    return financial_data_json, transactions_json
 
 
 if __name__ == "__main__":
@@ -109,6 +115,6 @@ if __name__ == "__main__":
     parser.add_argument("pdf_path", help="Path to bank statement PDF")
     args = parser.parse_args()
 
-    financial_data, final_json = process_statement_pipeline(args.pdf_path)
-    print(json.dumps(financial_data, indent=2))
-    print(json.dumps(final_json, indent=2))
+    financial_data_json, final_json = process_statement_pipeline(args.pdf_path)
+    print(financial_data_json)
+    print(final_json)
