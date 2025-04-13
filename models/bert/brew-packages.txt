@@ -1,0 +1,4 @@
+gcc@11 
+pkg-config 
+poppler 
+ocrmypdf
