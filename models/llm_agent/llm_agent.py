@@ -1,3 +1,5 @@
+# pip install openai 
+
 import json
 import os
 import time
@@ -469,7 +471,7 @@ class FinTailorAI:
 def load_json_file(file_path: str) -> Any:
     """Load data from a JSON file."""
     try:
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:  # Add encoding='utf-8'
             data = json.load(f)
             print(f"Successfully loaded {file_path}, data type: {type(data).__name__}")
             return data
@@ -724,9 +726,9 @@ if __name__ == "__main__":
     os.environ["OPENAI_API_KEY"] = "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"
 
     # Hardcoded paths for the BERT and RAG model outputs
-    financial_json_path = "../bert/__________.json"
-    transaction_json_path = "../bert/__________.json"
-    banking_rag_json_path = "../rag/use_relevant_banking_info.json"
+    financial_json_path = "../bert/sample_output/insights.json"
+    transaction_json_path = "../bert/sample_output/transactions.json"
+    banking_rag_json_path = "../rag/multiqa_relevant_banking_info.json"
 
     # Run the interactive advisor with the hardcoded file paths
     run_interactive_advisor(financial_json_path, transaction_json_path, banking_rag_json_path)
