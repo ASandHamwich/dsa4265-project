@@ -1,0 +1,16 @@
+{
+  "DEFAULT_SPENDING_INSIGHTS": {
+    "income": 1213.24,
+    "total_expenses": 693.59,
+    "categories": {
+      "food": 468.06,
+      "transfers": 48.91,
+      "transport": 40.0,
+      "miscellaneous": 36.0,
+      "shopping": 31.96,
+      "bills": 30.58,
+      "groceries": 22.59,
+      "health": 15.49
+    }
+  }
+}
