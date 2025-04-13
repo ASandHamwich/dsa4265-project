@@ -1,5 +1,5 @@
 # Library
-from bert_predict import predict
+from .bert_predict import predict
 from monopoly.banks import BankDetector, banks
 from monopoly.pdf import PdfDocument, PdfParser
 from monopoly.pipeline import Pipeline
@@ -13,6 +13,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 def statement_parser(pdf_path):
     document = PdfDocument(file_path=pdf_path)
+    bank = BankDetector(document).detect_bank(banks)
+    if bank is None:
+        raise Exception("Bank could not be detected; please check your pdf file.")
+
     parser = PdfParser(BankDetector(document).detect_bank(banks), document)
     pipeline = Pipeline(parser)
 
@@ -109,6 +113,23 @@ def process_statement_pipeline(pdf_path):
 
     return financial_data_json, transactions_json
 
+def save_json_outputs(financial_data_json, transactions_json):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Define file names
+    insights_file = os.path.join(current_dir, "insights.json")
+    transactions_file = os.path.join(current_dir, "transactions.json")
+
+    # Write to files
+    with open(insights_file, "w") as f:
+        f.write(financial_data_json)
+
+    with open(transactions_file, "w") as f:
+        f.write(transactions_json)
+
+    print(f"JSON outputs saved to:\n  - {insights_file}\n  - {transactions_file}")
+
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -118,3 +139,5 @@ if __name__ == "__main__":
     financial_data_json, final_json = process_statement_pipeline(args.pdf_path)
     print(financial_data_json)
     print(final_json)
+
+    # save_json_outputs(financial_data_json, final_json)
