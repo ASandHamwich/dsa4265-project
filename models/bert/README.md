@@ -6,6 +6,7 @@ Setup:
 3. Install Brew packages with `xargs brew install < brew-packages.txt`.
 
 Usage:
+
 To use in pipeline: export `process_statement_pipeline` from `bert_pipeline.py`. 
 
 `process_statement_pipeline`:
