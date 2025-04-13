@@ -1,0 +1,408 @@
+[
+  {
+    "date": "2025-01-01",
+    "description": "PAYMENT/TRANSFER via PayNow-UOVB from WONG MEI YIN OTHR Transfer - Mobile",
+    "amount": 500.0,
+    "predicted_label": "Transfers",
+    "confidence": 0.9967780709266663
+  },
+  {
+    "date": "2025-01-03",
+    "description": "DEBIT PURCHASE 01/01/25 xx-0411 TUMBLEWEED STUDIO S",
+    "amount": -78.0,
+    "predicted_label": "Food",
+    "confidence": 0.7599897980690002
+  },
+  {
+    "date": "2025-01-04",
+    "description": "DEBIT PURCHASE 02/01/25 xx-0411 TUMBLEWEED STUDIO S",
+    "amount": -78.0,
+    "predicted_label": "Food",
+    "confidence": 0.7156094908714294
+  },
+  {
+    "date": "2025-01-05",
+    "description": "DEBIT CREDIT 02/01/25 xx-0411 TUMBLEWEED STUDIO S",
+    "amount": 78.0,
+    "predicted_label": "Food",
+    "confidence": 0.8474799394607544
+  },
+  {
+    "date": "2025-01-08",
+    "description": "DEBIT PURCHASE 06/01/25 xx-0411 KOUFU PTE LTD S",
+    "amount": -5.51,
+    "predicted_label": "Food",
+    "confidence": 0.9974431991577148
+  },
+  {
+    "date": "2025-01-10",
+    "description": "DEBIT PURCHASE 09/01/25 xx-0411 SUSHI TEI - NEX S",
+    "amount": -48.44,
+    "predicted_label": "Food",
+    "confidence": 0.95965176820755
+  },
+  {
+    "date": "2025-01-10",
+    "description": "IBG GIRO INSU 068606931052 Singapore Life Ltd AVI13711629/068606931052",
+    "amount": -15.49,
+    "predicted_label": "Health",
+    "confidence": 0.9972707629203796
+  },
+  {
+    "date": "2025-01-10",
+    "description": "POS PURCHASE NETS MIXUE CITY xx-0411 MIXUE CITYLINK #",
+    "amount": -3.5,
+    "predicted_label": "Shopping",
+    "confidence": 0.887589156627655
+  },
+  {
+    "date": "2025-01-10",
+    "description": "FAST PAYMENT via PayNow-Mobile to Aly OTHR - OTHR",
+    "amount": -17.73,
+    "predicted_label": "Transfers",
+    "confidence": 0.9975495934486389
+  },
+  {
+    "date": "2025-01-11",
+    "description": "DEBIT PURCHASE 09/01/25 xx-0411 MCDONALD'S (BEN) S",
+    "amount": -11.2,
+    "predicted_label": "Food",
+    "confidence": 0.9975970387458801
+  },
+  {
+    "date": "2025-01-11",
+    "description": "DEBIT PURCHASE 09/01/25 xx-0411 PLAYMADE S",
+    "amount": -7.0,
+    "predicted_label": "Shopping",
+    "confidence": 0.9855742454528809
+  },
+  {
+    "date": "2025-01-12",
+    "description": "DEBIT PURCHASE USD 11.62 09/01/25 xx-0411 MICROSOFT#G073393298 M",
+    "amount": -16.46,
+    "predicted_label": "Shopping",
+    "confidence": 0.990266740322113
+  },
+  {
+    "date": "2025-01-12",
+    "description": "DEBIT PURCHASE 10/01/25 xx-6482 SIMPLYGO S",
+    "amount": -20.0,
+    "predicted_label": "Transport",
+    "confidence": 0.9967595934867859
+  },
+  {
+    "date": "2025-01-12",
+    "description": "FUND TRANSFER via PayNow-Mobile to Darrell Lek JR OTHR - OTHR",
+    "amount": -16.5,
+    "predicted_label": "Transfers",
+    "confidence": 0.9978832602500916
+  },
+  {
+    "date": "2025-01-12",
+    "description": "PAYMENT/TRANSFER via PayNow-DBSS from ELYSE TAN YUEX OTHR PayNow Transfer",
+    "amount": 16.07,
+    "predicted_label": "Transfers",
+    "confidence": 0.9978973865509033
+  },
+  {
+    "date": "2025-01-13",
+    "description": "PAYMENT/TRANSFER via PayNow-DBSS from ELYSE TAN YUEX OTHR PayNow Transfer",
+    "amount": 9.47,
+    "predicted_label": "Transfers",
+    "confidence": 0.9978973865509033
+  },
+  {
+    "date": "2025-01-13",
+    "description": "NETS QR 88891201 NETS QR PURCHASE STALL 6",
+    "amount": -7.8,
+    "predicted_label": "Food",
+    "confidence": 0.998528242111206
+  },
+  {
+    "date": "2025-01-14",
+    "description": "DEBIT PURCHASE 12/01/25 xx-7885 A Hot Hideout KR 2",
+    "amount": -32.14,
+    "predicted_label": "Food",
+    "confidence": 0.9967436790466309
+  },
+  {
+    "date": "2025-01-14",
+    "description": "DEBIT PURCHASE 13/01/25 xx-0411 NTUC FP - NUH S",
+    "amount": -15.79,
+    "predicted_label": "Groceries",
+    "confidence": 0.9964187145233154
+  },
+  {
+    "date": "2025-01-14",
+    "description": "PAYMENT/TRANSFER via PayNow-DBSS from NICOLE LEE SIY OTHR PayNow Transfer",
+    "amount": 15.5,
+    "predicted_label": "Transfers",
+    "confidence": 0.998063862323761
+  },
+  {
+    "date": "2025-01-14",
+    "description": "NETS QR 23055745 NETS QR PURCHASE VIETNAMESE PGP",
+    "amount": -6.1,
+    "predicted_label": "Food",
+    "confidence": 0.9977954626083374
+  },
+  {
+    "date": "2025-01-15",
+    "description": "CASH REBATE CASH REBATE",
+    "amount": 2.64,
+    "predicted_label": "Income",
+    "confidence": 0.9976281523704529
+  },
+  {
+    "date": "2025-01-15",
+    "description": "NETS QR 90376701 NETS QR PURCHASE MALA XIANG GUO",
+    "amount": -18.7,
+    "predicted_label": "Food",
+    "confidence": 0.9982728958129883
+  },
+  {
+    "date": "2025-01-15",
+    "description": "FAST PAYMENT via PayNow-Mobile to Samuel Ong OTHR - Gong Xi Fa Cai",
+    "amount": -8.28,
+    "predicted_label": "Transfers",
+    "confidence": 0.9964660406112671
+  },
+  {
+    "date": "2025-01-16",
+    "description": "DEBIT PURCHASE 14/01/25 xx-0411 ROMANA PIZZA & PASTA S",
+    "amount": -30.93,
+    "predicted_label": "Food",
+    "confidence": 0.9833083152770996
+  },
+  {
+    "date": "2025-01-16",
+    "description": "DEBIT PURCHASE 13/01/25 xx-7885 WHOLLY GREENS PTE LTD S",
+    "amount": -2.5,
+    "predicted_label": "Shopping",
+    "confidence": 0.724766194820404
+  },
+  {
+    "date": "2025-01-16",
+    "description": "DEBIT PURCHASE 13/01/25 xx-0411 YQUEUE S",
+    "amount": -7.0,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.995413601398468
+  },
+  {
+    "date": "2025-01-16",
+    "description": "NETS QR 23055745 NETS QR PURCHASE VIETNAMESE PGP",
+    "amount": -5.0,
+    "predicted_label": "Food",
+    "confidence": 0.9977954626083374
+  },
+  {
+    "date": "2025-01-16",
+    "description": "PAYMENT/TRANSFER via PayNow-UOVB from PHUA EN CI OTHR Transfer - Mobile",
+    "amount": 7.92,
+    "predicted_label": "Transfers",
+    "confidence": 0.9976129531860352
+  },
+  {
+    "date": "2025-01-17",
+    "description": "DEBIT PURCHASE 13/01/25 xx-0411 MSIA CUISINE PTE LTD S",
+    "amount": -18.94,
+    "predicted_label": "Food",
+    "confidence": 0.8999959826469421
+  },
+  {
+    "date": "2025-01-17",
+    "description": "NETS QR 91743801 NETS QR PURCHASE SIN KEE",
+    "amount": -4.5,
+    "predicted_label": "Food",
+    "confidence": 0.9987938404083252
+  },
+  {
+    "date": "2025-01-18",
+    "description": "FAST PAYMENT via PayNow-UEN to QFPAY SINGAPORE OTHR - 2000205867725017",
+    "amount": -7.0,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.9966686367988586
+  },
+  {
+    "date": "2025-01-18",
+    "description": "FAST PAYMENT via PayNow-Mobile to Aly OTHR - Gong Xi Fa Cai",
+    "amount": -6.4,
+    "predicted_label": "Transfers",
+    "confidence": 0.997028648853302
+  },
+  {
+    "date": "2025-01-18",
+    "description": "NETS QR 91743801 NETS QR PURCHASE SIN KEE",
+    "amount": -6.6,
+    "predicted_label": "Food",
+    "confidence": 0.9987938404083252
+  },
+  {
+    "date": "2025-01-18",
+    "description": "NETS QR 23040836 NETS QR PURCHASE SHU XIANG",
+    "amount": -4.8,
+    "predicted_label": "Food",
+    "confidence": 0.9982109069824219
+  },
+  {
+    "date": "2025-01-18",
+    "description": "NETS QR 89059401 NETS QR PURCHASE FISH SOUP",
+    "amount": -5.0,
+    "predicted_label": "Food",
+    "confidence": 0.9985357522964478
+  },
+  {
+    "date": "2025-01-19",
+    "description": "DEBIT PURCHASE 16/01/25 xx-0411 Jollibee NUS S",
+    "amount": -31.7,
+    "predicted_label": "Food",
+    "confidence": 0.9969807267189026
+  },
+  {
+    "date": "2025-01-19",
+    "description": "NETS QR 23055745 NETS QR PURCHASE VIETNAMESE PGP",
+    "amount": -6.1,
+    "predicted_label": "Food",
+    "confidence": 0.9977954626083374
+  },
+  {
+    "date": "2025-01-19",
+    "description": "FAST PAYMENT via PayNow-Mobile to toast OTHR - Gong Xi Fa Cai",
+    "amount": -2.0,
+    "predicted_label": "Food",
+    "confidence": 0.983439028263092
+  },
+  {
+    "date": "2025-01-21",
+    "description": "FAST PAYMENT via PayNow-UEN to JING CI FOOD COU OTHR - OTHR",
+    "amount": -5.0,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.6099129319190979
+  },
+  {
+    "date": "2025-01-21",
+    "description": "PAYMENT/TRANSFER via PayNow-DBSS from NICOLE LEE SIY OTHR PayNow Transfer",
+    "amount": 21.0,
+    "predicted_label": "Transfers",
+    "confidence": 0.998063862323761
+  },
+  {
+    "date": "2025-01-23",
+    "description": "DEBIT PURCHASE 21/01/25 xx-3623 royals-cafe-nus-u S",
+    "amount": -37.55,
+    "predicted_label": "Food",
+    "confidence": 0.9900184869766235
+  },
+  {
+    "date": "2025-01-23",
+    "description": "NETS QR 88894601 NETS QR PURCHASE GOLDEN NUR NASI BRIYANI NASI BRIYA",
+    "amount": -2.9,
+    "predicted_label": "Food",
+    "confidence": 0.9981653094291687
+  },
+  {
+    "date": "2025-01-23",
+    "description": "NETS QR 23016847 NETS QR PURCHASE GREENS & GRAINS",
+    "amount": -6.8,
+    "predicted_label": "Groceries",
+    "confidence": 0.9925140738487244
+  },
+  {
+    "date": "2025-01-24",
+    "description": "FAST PAYMENT via PayNow-UEN to QFPAY SINGAPORE OTHR - 2000207467725023",
+    "amount": -7.0,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.9964442849159241
+  },
+  {
+    "date": "2025-01-24",
+    "description": "DEBIT PURCHASE 21/01/25 xx-7885 WHOLLY GREENS PTE LTD S",
+    "amount": -2.5,
+    "predicted_label": "Shopping",
+    "confidence": 0.7317928075790405
+  },
+  {
+    "date": "2025-01-24",
+    "description": "NETS QR 89059401 NETS QR PURCHASE FISH SOUP",
+    "amount": -5.3,
+    "predicted_label": "Food",
+    "confidence": 0.9985357522964478
+  },
+  {
+    "date": "2025-01-25",
+    "description": "NETS QR 51313501 NETS QR PURCHASE LE TACH PTE LTD",
+    "amount": -1.6,
+    "predicted_label": "Food",
+    "confidence": 0.9981051683425903
+  },
+  {
+    "date": "2025-01-25",
+    "description": "DEBIT PURCHASE 23/01/25 xx-6482 SIMPLYGO S",
+    "amount": -20.0,
+    "predicted_label": "Transport",
+    "confidence": 0.9970546960830688
+  },
+  {
+    "date": "2025-01-25",
+    "description": "NETS QR 23055745 NETS QR PURCHASE VIETNAMESE PGP",
+    "amount": -6.1,
+    "predicted_label": "Food",
+    "confidence": 0.9977954626083374
+  },
+  {
+    "date": "2025-01-26",
+    "description": "DEBIT PURCHASE 24/01/25 xx-0411 MCDONALD'S (BQ) S",
+    "amount": -5.25,
+    "predicted_label": "Food",
+    "confidence": 0.9973077774047852
+  },
+  {
+    "date": "2025-01-27",
+    "description": "DEBIT PURCHASE 25/01/25 xx-7885 FRESH LAUNDRY - N S",
+    "amount": -1.5,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.9927936792373657
+  },
+  {
+    "date": "2025-01-27",
+    "description": "DEBIT PURCHASE USD 21.80 24/01/25 xx-6017 OPENAI *CHATGPT SUBSCR O",
+    "amount": -30.58,
+    "predicted_label": "Bills",
+    "confidence": 0.9785259962081909
+  },
+  {
+    "date": "2025-01-27",
+    "description": "FAST PAYMENT via PayNow-UEN to JING CI FOOD COU OTHR - OTHR",
+    "amount": -7.5,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.6099129319190979
+  },
+  {
+    "date": "2025-01-27",
+    "description": "GIRO - SALARY SALA BIPO SERVICE (SINGA TECS01401",
+    "amount": 560.67,
+    "predicted_label": "Food",
+    "confidence": 0.6991069912910461
+  },
+  {
+    "date": "2025-01-27",
+    "description": "NETS QR 23027072 NETS QR PURCHASE HWANG'S KOREAN UTOWN",
+    "amount": -7.9,
+    "predicted_label": "Food",
+    "confidence": 0.99842369556427
+  },
+  {
+    "date": "2025-01-28",
+    "description": "DEBIT PURCHASE 25/01/25 xx-7885 FRESH LAUNDRY - N S",
+    "amount": -1.0,
+    "predicted_label": "Miscellaneous",
+    "confidence": 0.9927936792373657
+  },
+  {
+    "date": "2025-02-01",
+    "description": "INTEREST CREDIT",
+    "amount": 1.97,
+    "predicted_label": "Income",
+    "confidence": 0.9978698492050171
+  }
+]
