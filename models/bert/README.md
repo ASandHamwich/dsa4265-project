@@ -14,6 +14,7 @@ FUNCTION `process_statement_pipeline(pdf_path)`:
 
 Input: 
 - `.pdf` file path of bank statement
+
 Output: 
 - `financial_data.json`: A summary of transactions made, determined from the bank statement uploaded.
 - `transactions.json`: A list of JSON objects, showing all transactions made. 
