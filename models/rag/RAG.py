@@ -273,9 +273,9 @@ def predict_tag_from_query(query, available_tags, embed_model, model_type):
 # 8. MAIN FUNCTION
 
 # all-MiniLM-L6-v2, multi-qa-mpnet-base-dot-v1, all-mpnet-base-v2, msmarco-MiniLM-L-6-v3
-def rag(model_type="multi-qa-mpnet-base-dot-v1", batch_size=64, top_k=30, alpha=0.5, boost_factor=0.2,
+def main(model_type="multi-qa-mpnet-base-dot-v1", batch_size=64, top_k=30, alpha=0.5, boost_factor=0.2,
          user_query="I eat out and go overseas a lot. What are the best card options for me?", 
-         csv_path="../../bank-data/combined_banks.csv"):
+         csv_path):
     
     documents = load_financial_knowledge(csv_path)
     with open("financial_knowledge.json", "w", encoding="utf-8") as f:
@@ -312,4 +312,4 @@ def rag(model_type="multi-qa-mpnet-base-dot-v1", batch_size=64, top_k=30, alpha=
     
     return relevant_info
 
-relevant_info = rag()
+relevant_info = main()
