@@ -1,5 +1,5 @@
 # Library
-from bert_predict import predict
+from .bert_predict import predict
 from monopoly.banks import BankDetector, banks
 from monopoly.pdf import PdfDocument, PdfParser
 from monopoly.pipeline import Pipeline
