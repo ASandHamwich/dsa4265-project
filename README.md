@@ -10,6 +10,11 @@ This project explores the use of Natural Language Processing models in the finan
 <img width="1014" alt="Screenshot 2025-04-20 at 6 19 10 AM" src="https://github.com/user-attachments/assets/a44ce4fe-a69e-48ab-acd8-7c26cbe90082" />
 
 -----
+Product Demo:
+
+https://github.com/user-attachments/assets/be256389-a8cc-4400-a30b-09508ef442a8
+
+-----
 
 This project was completed by: Arnold Lek, Leang Yao Heng and Nicole Looi. 
 
