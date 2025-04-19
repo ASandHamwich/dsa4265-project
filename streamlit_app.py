@@ -16,6 +16,7 @@ ai = FinTailorAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # Streamlit App UI
 
+st.markdown("<style>button[kind='expander'] div div { font-size: 1.05em !important; }</style>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>💰 FinTailorAI 💰</h1>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center;'>Your Personalized Financial Recommendations Generator</h6>", unsafe_allow_html=True)
 
@@ -35,100 +36,124 @@ if "initial_query" not in st.session_state:
     st.session_state.initial_query = ""
 
 # 1. Upload Transactions PDF (Optional)
-
-st.subheader("Step 1: Upload Your Transaction Statement (PDF)")
+st.subheader("💸 Step 1: Upload Your Transaction Statement (optional)")
 uploaded_file = st.file_uploader("Upload your transaction statement (PDF) here", type=["pdf"])
 
 if uploaded_file is not None:
-    st.write(f"File uploaded: {uploaded_file.name}")
-    st.info("Processing your transaction statement...")
-    try:
-        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_pdf_file:
-            temp_pdf_file.write(uploaded_file.read())
-            temp_pdf_path = temp_pdf_file.name 
-        aggregated_spendings, transactions = process_statement_pipeline(temp_pdf_path)
-        st.session_state.aggregated_spendings = aggregated_spendings
+    if "statement_status" not in st.session_state:
+        st.session_state.statement_status = "processing"  # can be "processing", "success", "error"
+
+    # Only show processing info if still processing
+    if st.session_state.statement_status == "processing":
+        st.info("File uploaded. Processing your transaction statement...")
+
+        try:
+            with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as temp_pdf_file:
+                temp_pdf_file.write(uploaded_file.read())
+                temp_pdf_path = temp_pdf_file.name
+
+            aggregated_spendings, transactions = process_statement_pipeline(temp_pdf_path)
+            st.session_state.aggregated_spendings = aggregated_spendings
+            st.session_state.statement_status = "success"
+            st.rerun()  # to hide st.info on next render
+        except Exception as e:
+            st.session_state.statement_status = "error"
+            st.error(f"Error processing statement: {e}")
+    elif st.session_state.statement_status == "success":
         st.success("Transactions processed successfully!")
-    except Exception as e:
-        st.error(f"Error processing statement: {e}")
+    elif st.session_state.statement_status == "error":
+        st.error("Something went wrong during processing.")
 
 # 2. Get Initial Query from User
-
-st.subheader("Step 2: Ask Your Financial Question")
+st.subheader("❓ Step 2: Ask Your Financial Question")
 initial_query = st.text_input("Enter your question:", value=st.session_state.initial_query)
 
-if st.button("Submit Initial Query"):
+if st.button("Submit Query"):
     if initial_query.strip() == "":
         st.error("Please enter a query.")
     else:
         st.session_state.initial_query = initial_query
-        followup_qs = ai.analyze_query_and_generate_questions(user_query=initial_query)
+        followup_qs = ["What card do you use now?", "What rewards would you like?", "How much do you spend a month?"]
+        # followup_qs = ai.analyze_query_and_generate_questions(user_query=initial_query)
         st.session_state.followup_questions = followup_qs
         st.session_state.current_question_idx = 0
-        st.success("Initial query saved. Follow-up questions generated!")
+        st.success("Your query has been submitted. Here are some follow-up questions for you!")
 
 # 3. Handle Follow-up Questions
-
 if st.session_state.initial_query and st.session_state.followup_questions:
-    st.subheader("Step 3: Follow-up Questions")
-    current_idx = st.session_state.current_question_idx
+    st.subheader("📝 Step 3: Follow-up Questions")
 
-    # # Show previously answered Q&A in an expander
-    # if st.session_state.qa_pairs:
-    #     with st.expander("Previous Follow-up Answers"):
-    #         for idx, (q, a) in enumerate(st.session_state.qa_pairs):
-    #             st.markdown(f"**Q{idx + 1}:** {q}")
-    #             st.markdown(f"**A{idx + 1}:** {a}")
-    
-    if st.session_state.qa_pairs:
-        st.markdown("#### Past Follow-up Questions:")
-        for idx, (q, a) in enumerate(st.session_state.qa_pairs):
-            st.markdown(
-                f"<div style='color: grey; font-size: 0.9em;'>"
-                f"<b>Q{idx+1}:</b> {q}<br><b>A{idx+1}:</b> {a}"
-                "</div>",
-                unsafe_allow_html=True
-            )
+    with st.form("followup_form"):
+        all_answers_filled = True
+        for idx, question in enumerate(st.session_state.followup_questions):
+            answer_key = f"answer_input_{idx}"
 
-    if current_idx < len(st.session_state.followup_questions):
-        question = st.session_state.followup_questions[current_idx]
-        st.write(f"**Follow-up Question {current_idx+1}:** {question}")
-        answer = st.text_input("Your Answer:", key=f"answer_{current_idx}")
+            # Initialize each answer input in session state
+            if answer_key not in st.session_state:
+                if idx < len(st.session_state.qa_pairs):
+                    st.session_state[answer_key] = st.session_state.qa_pairs[idx][1]
+                else:
+                    st.session_state[answer_key] = ""
 
-        if st.button("Submit Answer", key=f"submit_{current_idx}"):
-            if answer.strip() == "":
-                st.error("Please enter an answer before submitting.")
-            else:
-                # Save the Q&A pair and move to next question
-                st.session_state.qa_pairs.append((question, answer))
-                st.session_state.current_question_idx += 1
-                st.rerun()
-    else:
-        st.success("All follow-up questions answered.")
+            st.markdown(f"**Question {idx + 1}:** {question}")
+            st.text_input("Your Answer:", key=answer_key)
+
+        submitted = st.form_submit_button("Submit All Answers")
+
+    if submitted:
+        updated_pairs = []
+        for idx, question in enumerate(st.session_state.followup_questions):
+            answer = st.session_state[f"answer_input_{idx}"].strip()
+            if answer == "":
+                all_answers_filled = False
+                break
+            updated_pairs.append((question, answer))
+
+        if not all_answers_filled:
+            st.warning("Please complete all answers before submitting.")
+        else:
+            st.session_state.qa_pairs = updated_pairs
+            st.session_state["submitted_all_answers"] = True
+            st.rerun()
+
+if st.session_state.get("submitted_all_answers", False):
+    st.success("✅ All answers submitted successfully.")
 
 # 4. Final Response Generation
+if st.session_state.get("submitted_all_answers", False) and st.session_state.initial_query and st.session_state.qa_pairs:
+    if "final_response" not in st.session_state:
+        followup_qa_dict = {q: a for q, a in st.session_state.qa_pairs}
 
-if st.session_state.initial_query and st.session_state.qa_pairs:
-    st.subheader("Step 4: Generate Final Response")
-    followup_qa_dict = {q: a for q, a in st.session_state.qa_pairs}
-    
-    if st.button("Generate Final Response"):
-        # Retrieve relevant banking info using RAG
+        info_placeholder = st.info("⏳ Generating your final response...")
+
+        initial_query = st.session_state.initial_query
         agg_spendings = st.session_state.aggregated_spendings if st.session_state.aggregated_spendings else ""
+
         try:
-            relevant_info = rag(initial_query, agg_spendings)
+            relevant_info = rag(initial_query=initial_query, agg_spendings=agg_spendings)
         except Exception as e:
             st.error(f"Error during retrieval (RAG): {e}")
             relevant_info = None
-        
+
         if relevant_info is not None:
-            # Generate final answer using LLM agent
             try:
-                final_response = FinTailorAI.generate_financial_recommendation(user_query=initial_query, financial_data=agg_spendings, banking_rag_data=relevant_info, additional_info=followup_qa_dict)
+                final_response = ai.generate_financial_recommendation(
+                    user_query=initial_query,
+                    financial_data=agg_spendings,
+                    banking_rag_data=relevant_info,
+                    additional_info=followup_qa_dict
+                )
+                print(final_response)
             except Exception as e:
                 st.error(f"Error during LLM generation: {e}")
                 final_response = "An error occurred during answer generation."
-            st.write("### Final Response")
-            st.success(final_response)
-            st.write("### Relevant Banking Information")
-            st.write(relevant_info)
+        else:
+            final_response = "No relevant information could be retrieved."
+
+        st.session_state.final_response = final_response
+
+        info_placeholder.empty()
+        st.rerun()
+    else:
+        st.subheader("💰 Your Financial Recommendation")
+        st.text(st.session_state.final_response)
