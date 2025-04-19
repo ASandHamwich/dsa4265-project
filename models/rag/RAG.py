@@ -1,15 +1,13 @@
-import os
 import json
 import numpy as np
 import pandas as pd
-from sentence_transformers import SentenceTransformer
 import faiss
-from rank_bm25 import BM25Okapi
 from sklearn.preprocessing import minmax_scale
-
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+from sentence_transformers import SentenceTransformer
 import tensorflow_hub as hub
+from rank_bm25 import BM25Okapi
+
+BASE_DIR = os.path.dirname(__file__)
 
 # 1. LOAD FINANCIAL KNOWLEDGE
 
@@ -179,7 +177,7 @@ def search_faiss(index, query, chunks, embed_model, model_type, top_k):
     results = rerank_results(preliminary_results)
     return results
 
-def hybrid_search(faiss_index, bm25_index, query, chunks, embed_model, model_type, top_k=10, alpha=0.5, boost_factor=0.1, predicted_tag=None):
+def hybrid_search(predicted_tag, faiss_index, bm25_index, query, chunks, embed_model, model_type, top_k=10, alpha=0.5, boost_factor=0.1):
     # Dense embedding of query
     if model_type == "use":
         query_emb = embed_model([query]).numpy()
@@ -246,6 +244,7 @@ def prepare_relevant_banking_info(search_results):
     return relevant_info
 
 # 7. METADATA BOOSTING
+
 available_tags = [
     "account promotions", "accounts", "atm and branch services",
     "card promotions", "card rewards and services", "credit cards",
@@ -272,39 +271,47 @@ def predict_tag_from_query(query, available_tags, embed_model, model_type):
 
 # 8. MAIN FUNCTION
 
-# all-MiniLM-L6-v2, multi-qa-mpnet-base-dot-v1, all-mpnet-base-v2, msmarco-MiniLM-L-6-v3
+# model types = all-MiniLM-L6-v2, multi-qa-mpnet-base-dot-v1, all-mpnet-base-v2, msmarco-MiniLM-L-6-v3
 def main(model_type="multi-qa-mpnet-base-dot-v1", batch_size=64, top_k=30, alpha=0.5, boost_factor=0.2,
          user_query="I eat out and go overseas a lot. What are the best card options for me?", 
-         csv_path):
+         csv_path="../../bank-data/combined_banks.csv"):
     
-    documents = load_financial_knowledge(csv_path)
-    with open("financial_knowledge.json", "w", encoding="utf-8") as f:
-        json.dump(documents, f, ensure_ascii=False, indent=2)
-    print("Documents saved to financial_knowledge.json")
+    # documents = load_financial_knowledge(csv_path)
+    # with open("financial_knowledge.json", "w", encoding="utf-8") as f:
+    #     json.dump(documents, f, ensure_ascii=False, indent=2)
+    # print("Documents saved to financial_knowledge.json")
 
-    chunks = flatten_documents_to_chunks(documents)
-    with open("chunks.json", "w", encoding="utf-8") as f:
-        json.dump(chunks, f, ensure_ascii=False, indent=2)
-    print("Chunks saved to chunks.json")
-    # with open("chunks.json", "r", encoding="utf-8") as f:
-    #     chunks = json.load(f)
+    # chunks = flatten_documents_to_chunks(documents)
+    # with open("chunks.json", "w", encoding="utf-8") as f:
+    #     json.dump(chunks, f, ensure_ascii=False, indent=2)
+    # print("Chunks saved to chunks.json")
+    chunks_path = os.path.join(BASE_DIR, "chunks.json")
+    with open(chunks_path, "r", encoding="utf-8") as f:
+        chunks = json.load(f)
     
     embed_model = load_embedding_model(model_type)
-    embeddings = generate_embeddings(chunks, model_type, embed_model, batch_size)
-    
-    faiss_index = build_faiss_index(embeddings)
-    faiss.write_index(faiss_index, "faiss.index")
-    print("FAISS index saved to faiss.index")
-    # faiss_index = faiss.read_index("multiqa_faiss.index")
+    embed_model.save('embed_models/multi-qa-mpnet-base-dot-v1')
+    # model_path = os.path.join(BASE_DIR, "embed_models/multi-qa-mpnet-base-dot-v1")
+    # embed_model = SentenceTransformer(model_path)
+
+    # embeddings = generate_embeddings(chunks, model_type, embed_model, batch_size)
+    # faiss_index = build_faiss_index(embeddings)
+    # faiss.write_index(faiss_index, "faiss.index")
+    # print("FAISS index saved to faiss.index")
+    faiss_path = os.path.join(BASE_DIR, "multiqa_faiss.index")
+    faiss_index = faiss.read_index(faiss_path)
     
     bm25_index = build_bm25_index(chunks)
+    with open("bm25_index.pkl", "wb") as f:
+        pickle.dump(bm25_index, f)
+    # bm25_path = os.path.join(BASE_DIR, "bm25_index.pkl")
+    # with open(bm25_path, "rb") as f:
+    #     bm25_index = pickle.load(f)
 
     predicted_tag, sim_score = predict_tag_from_query(user_query, available_tags, embed_model, model_type)
     print(f"Predicted tag: {predicted_tag} (similarity: {sim_score:.4f})")
     
-    search_results = hybrid_search(faiss_index, bm25_index, user_query, chunks,
-                                   embed_model, model_type, top_k, alpha, boost_factor, predicted_tag)
-    
+    search_results = hybrid_search(predicted_tag, faiss_index, bm25_index, user_query, chunks, embed_model, model_type)
     relevant_info = prepare_relevant_banking_info(search_results)
     with open("relevant_banking_info.json", "w", encoding="utf-8") as f:
         json.dump(relevant_info, f, indent=2, ensure_ascii=False)
@@ -312,4 +319,40 @@ def main(model_type="multi-qa-mpnet-base-dot-v1", batch_size=64, top_k=30, alpha
     
     return relevant_info
 
-relevant_info = main()
+def rag(initial_query, agg_spendings, additional_info=None):
+    # Use full paths relative to RAG.py file
+    chunks_path = os.path.join(BASE_DIR, "chunks.json")
+    faiss_path = os.path.join(BASE_DIR, "multiqa_faiss.index")
+    bm25_path = os.path.join(BASE_DIR, "bm25_index.pkl")
+    model_path = os.path.join(BASE_DIR, "local_model/multi-qa-mpnet-base-dot-v1")
+
+    with open(chunks_path, "r", encoding="utf-8") as f:
+        chunks = json.load(f)
+
+    embed_model = SentenceTransformer(model_path)
+    faiss_index = faiss.read_index(faiss_path)
+
+    with open(bm25_path, "rb") as f:
+        bm25_index = pickle.load(f)
+
+    predicted_tag, sim_score = predict_tag_from_query(
+        user_query=initial_query,
+        available_tags=available_tags,
+        embed_model=embed_model,
+        model_type='multi-qa-mpnet-base-dot-v1'
+    )
+
+    print(f"Predicted tag: {predicted_tag} (similarity: {sim_score:.4f})")
+
+    search_results = hybrid_search(
+        predicted_tag,
+        faiss_index,
+        bm25_index,
+        initial_query,
+        chunks,
+        embed_model,
+        model_type='multi-qa-mpnet-base-dot-v1'
+    )
+
+    relevant_bank_info = prepare_relevant_banking_info(search_results)
+    return relevant_bank_info
