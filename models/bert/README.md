@@ -1,5 +1,7 @@
 # BERT
 
+This model's primary role in the product is to classify transactional data into specified categories for further use further down the pipeline. 
+
 Setup:
 1. Install Python 3.11 (recommended: use `venv`)
 2. Install Python dependencies from `requirements.txt`.
