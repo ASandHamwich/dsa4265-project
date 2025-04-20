@@ -2,6 +2,12 @@
 
 This model's primary role in the product is to classify transactional data into specified categories for further use further down the pipeline. 
 
+Files:
+1. `bert-data.ipynb`: Generating dataset and cleaning/preprocessing data.
+2. `bert-model.ipynb`: Training BERT model.
+3. `bert_predict.py`: Making predictions uing the BERT model.
+4. `bert_pipeline.py`: Methods for implementing into overall project pipeline.
+
 Setup:
 1. Install Python 3.11 (recommended: use `venv`)
 2. Install Python dependencies from `requirements.txt`.
