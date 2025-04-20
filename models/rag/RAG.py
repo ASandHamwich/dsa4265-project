@@ -1,11 +1,17 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import json
+import pickle
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+from itertools import product
 import faiss
 from sklearn.preprocessing import minmax_scale
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 import tensorflow_hub as hub
 from rank_bm25 import BM25Okapi
+from itertools import product
 
 BASE_DIR = os.path.dirname(__file__)
 
@@ -177,52 +183,81 @@ def search_faiss(index, query, chunks, embed_model, model_type, top_k):
     results = rerank_results(preliminary_results)
     return results
 
-def hybrid_search(predicted_tag, faiss_index, bm25_index, query, chunks, embed_model, model_type, top_k=10, alpha=0.5, boost_factor=0.1):
+def hybrid_search(predicted_tag, faiss_index, bm25_index, query, chunks, embed_model, model_type, cross_encoder_model, top_k, alpha, boost_factor):
     # Dense embedding of query
     if model_type == "use":
         query_emb = embed_model([query]).numpy()
     else:
         query_emb = embed_model.encode([query], convert_to_numpy=True)
     faiss.normalize_L2(query_emb)
+    
     # Dense semantic search the FAISS index
     dense_scores, dense_indices = faiss_index.search(query_emb, top_k)
+    
     # Sparse BM25 search
     tokenized_query = query.lower().split()
     bm25_scores = bm25_index.get_scores(tokenized_query)
     top_bm25_indices = sorted(range(len(bm25_scores)), key=lambda i: bm25_scores[i], reverse=True)[:top_k]
+    
     # Normalize scores
     dense_scores_scaled = minmax_scale(dense_scores[0])
     bm25_scores_scaled = minmax_scale([bm25_scores[i] for i in top_bm25_indices])
+    
     # Score Fusion with metadata boosting
     hybrid_results = []
     seen_indices = set()
+    
+    # Dense search results (with boosting)
     for i, idx in enumerate(dense_indices[0]):
         chunk = chunks[idx]
         score = alpha * dense_scores_scaled[i]
+        
         # Boost if predicted_tag is found in the chunk's tag (case insensitive)
         if predicted_tag and predicted_tag.lower() in chunk["metadata"]["tag"].lower():
             score += boost_factor
+        
         hybrid_results.append({
             "text": chunk["text"],
             "metadata": chunk.get("metadata", {}),
             "score": score
         })
         seen_indices.add(idx)
+    
+    # BM25 search results (with boosting)
     for i, idx in enumerate(top_bm25_indices):
         if idx in seen_indices:
             continue
         chunk = chunks[idx]
         score = (1 - alpha) * bm25_scores_scaled[i]
+
         if predicted_tag and predicted_tag.lower() in chunk["metadata"]["tag"].lower():
             score += boost_factor
+        
         hybrid_results.append({
             "text": chunk["text"],
             "metadata": chunk.get("metadata", {}),
             "score": score
         })
-    hybrid_results = sorted(hybrid_results, key=lambda x: x["score"], reverse=True)[:top_k]
-    final_results = rerank_results(hybrid_results)
+    
+    reranked_results = rerank_with_cross_encoder(query, hybrid_results, cross_encoder_model)
+    final_results = rerank_results(reranked_results)
+    
     return final_results
+
+def rerank_with_cross_encoder(query, hybrid_results, cross_encoder_model):
+    pairs = [(query, res["text"]) for res in hybrid_results]
+
+    scores = cross_encoder_model.predict(pairs)
+
+    reranked = []
+    for res, score in zip(hybrid_results, scores):
+        reranked.append({
+            "text": res["text"],
+            "metadata": res["metadata"],
+            "score": float(score)
+        })
+
+    return sorted(reranked, key=lambda x: x["score"], reverse=True)
 
 def rerank_results(results):
     return sorted(results, key=lambda x: x["score"], reverse=True)
@@ -356,3 +391,186 @@ def rag(initial_query, agg_spendings, additional_info=None):
 
     relevant_bank_info = prepare_relevant_banking_info(search_results)
     return relevant_bank_info
+
+# 9. MODEL TRAINING
+
+# Helper to run retrieval
+def run_retrieval(query, params, pipeline_assets):
+    model_type = params['model_type']
+    embed_model = pipeline_assets['embed_models'][model_type]
+    faiss_index = pipeline_assets['faiss_indexes'][model_type]
+
+    predicted_tag, _ = predict_tag_from_query(
+        query, pipeline_assets['available_tags'], embed_model, model_type
+    )
+
+    return hybrid_search(
+        predicted_tag,
+        faiss_index,
+        pipeline_assets['bm25_index'],
+        query,
+        pipeline_assets['chunks'],
+        embed_model,
+        model_type,
+        pipeline_assets['cross_encoder_model'],
+        top_k=params['top_k'],
+        alpha=params['alpha'],
+        boost_factor=params['boost_factor']
+    )
+
+# Compute Recall@K and MRR
+def evaluate_metrics(params, test_df, pipeline_assets, top_k=10):
+    hits = 0
+    reciprocals = []
+
+    for _, row in test_df.iterrows():
+        results = run_retrieval(row['query'], params, pipeline_assets)
+
+        gold_url     = row['gold_url']
+        gold_section = row['gold_section'].lower()
+
+        # Only consider the top K results
+        top_k_results = results[:top_k]
+
+        # Find all result positions where:
+        #  - URLs match exactly, and
+        #  - gold_section is a substring of the returned section (case-insensitive)
+        matching_ranks = [
+            idx for idx, r in enumerate(top_k_results)
+            if (r['metadata']['url'] == gold_url) and
+               (gold_section in r['metadata']['section'].lower())
+        ]
+
+        # Recall@K: Increment hits if at least one relevant result is found in the top K
+        if matching_ranks:
+            hits += 1
+            # MRR@K: Use the rank of the first match
+            rank = matching_ranks[0] + 1
+            reciprocals.append(1.0 / rank)
+        else:
+            reciprocals.append(0.0)
+
+    recall = hits / len(test_df)
+    mrr = float(np.mean(reciprocals))
+    return recall, mrr
+
+#  First Time Initialization
+# documents = load_financial_knowledge("../../bank-data/combined_banks.csv")
+# with open("financial_knowledge.json", "w", encoding="utf-8") as f:
+#     json.dump(documents, f, ensure_ascii=False, indent=2)
+# print("Documents saved to financial_knowledge.json")
+
+# chunks = flatten_documents_to_chunks(documents)
+# with open("chunks.json", "w", encoding="utf-8") as f:
+#     json.dump(chunks, f, ensure_ascii=False, indent=2)
+# print("Chunks saved to chunks.json")
+
+# bm25_index = build_bm25_index(chunks)
+# with open("bm25_index.pkl", "wb") as f:
+#     pickle.dump(bm25_index, f)
+# print("BM25 index saved to bm25_index.pkl")
+
+# cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2', token='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')
+# cross_encoder.save('cross-encoder/msmarco-MiniLM-L-6-v2')
+# print("Cross-encoder model saved.")
+
+# model_types = ['all-MiniLM-L6-v2', 'multi-qa-MiniLM-L6-cos-v1', 'all-mpnet-base-v2', 'msmarco-MiniLM-L-6-v3']
+# for model_type in model_types:
+#     embed_model = load_embedding_model(model_type)
+#     embed_model.save(f'embed_models/{model_type}')
+#     print(f"{model_type} model saved.")
+    
+#     embeddings = generate_embeddings(chunks, model_type, embed_model, batch_size=64)
+#     faiss_index = build_faiss_index(embeddings)
+#     faiss.write_index(faiss_index, f"faiss_{model_type}.index")
+#     print(f"FAISS index saved to faiss_{model_type}.index")
+
+# Subsequent Initialization
+chunks = json.load(open('chunks.json', 'r', encoding='utf-8'))
+cross_encoder_model = CrossEncoder('cross-encoder/msmarco-MiniLM-L-6-v2')
+bm25_index = pickle.load(open('bm25_index.pkl', 'rb'))
+embed_models = {
+    'all-MiniLM-L6-v2': SentenceTransformer('embed_models/all-MiniLM-L6-v2'),
+    'multi-qa-MiniLM-L6-cos-v1': SentenceTransformer('embed_models/multi-qa-MiniLM-L6-cos-v1'),
+    'all-mpnet-base-v2': SentenceTransformer('embed_models/all-mpnet-base-v2'),
+    'msmarco-MiniLM-L-6-v3': SentenceTransformer('embed_models/msmarco-MiniLM-L-6-v3')
+}
+
+faiss_indexes = {}
+for model_type in embed_models:
+    index_path = f"faiss_{model_type}.index"
+    faiss_indexes[model_type] = faiss.read_index(index_path)
+
+# Load test queries + gold annotations
+test_df = pd.read_csv('test.csv', encoding='latin1')  # columns: query, gold_url, gold_section
+
+# Define your grid 'all-MiniLM-L6-v2', 
+param_grid = {
+    'top_k': [5, 10, 20],
+    'alpha': [0.3, 0.5, 0.7],
+    'boost_factor': [0.0, 0.2],
+    'model_type': ['multi-qa-MiniLM-L6-cos-v1', 'all-mpnet-base-v2', 'msmarco-MiniLM-L-6-v3']
+}
+
+# Load your pipeline assets once:
+pipeline_assets = {
+    'chunks': chunks,
+    'faiss_indexes': faiss_indexes,
+    'bm25_index': bm25_index,
+    'cross_encoder_model': cross_encoder_model,
+    'available_tags': available_tags,
+    'embed_models': embed_models
+}
+
+# Grid search
+results = []
+keys = list(param_grid.keys())
+all_combinations = list(product(*[param_grid[k] for k in keys]))
+total = len(all_combinations)
+
+for i, values in enumerate(all_combinations, start=1):
+    params = dict(zip(keys, values))
+    print(f"Evaluating [{i}/{total}]: {params}")
+    recall, mrr = evaluate_metrics(params, test_df, pipeline_assets)
+    print(f"=> Recall@K={recall:.4f}, MRR={mrr:.4f}")
+    results.append({**params, 'Recall@K': recall, 'MRR': mrr})
+
+results_df = pd.DataFrame(results)
+results_df.to_csv("retrieval_evaluation_results.csv", index=False)
+
+# Plotting (one plot per metric/param combo, grouped by model_type)
+for model_type in param_grid['model_type']:
+    # A) Recall@K vs top_k (fixed alpha=0.5, boost=0.1)
+    subs = results_df[(results_df.alpha == 0.5) & 
+                      (results_df.boost_factor == 0.1) & 
+                      (results_df.model_type == model_type)]
+    plt.figure()
+    plt.plot(subs.top_k, subs['Recall@K'], marker='o')
+    plt.title(f'Recall@K vs top_k ({model_type})')
+    plt.xlabel('top_k'); plt.ylabel('Recall@K')
+    plt.savefig(f'/mnt/data/recall_vs_topk_{model_type}.png', bbox_inches='tight')
+    plt.close()
+
+    # B) MRR vs alpha (fixed top_k=20, boost=0.1)
+    subs = results_df[(results_df.top_k == 20) & 
+                      (results_df.boost_factor == 0.1) & 
+                      (results_df.model_type == model_type)]
+    plt.figure()
+    plt.plot(subs.alpha, subs['MRR'], marker='o')
+    plt.title(f'MRR vs alpha ({model_type})')
+    plt.xlabel('alpha'); plt.ylabel('MRR')
+    plt.savefig(f'/mnt/data/mrr_vs_alpha_{model_type}.png', bbox_inches='tight')
+    plt.close()
+
+    # C) Recall@K vs boost_factor (fixed top_k=20, alpha=0.5)
+    subs = results_df[(results_df.top_k == 20) & 
+                      (results_df.alpha == 0.5) & 
+                      (results_df.model_type == model_type)]
+    plt.figure()
+    plt.plot(subs.boost_factor, subs['Recall@K'], marker='o')
+    plt.title(f'Recall@K vs boost_factor ({model_type})')
+    plt.xlabel('boost_factor'); plt.ylabel('Recall@K')
+    plt.savefig(f'/mnt/data/recall_vs_boost_{model_type}.png', bbox_inches='tight')
+    plt.close()
+
+print("All plots saved to /mnt/data/ as PNGs grouped by embedding model.")
