@@ -1,4 +1,5 @@
 # pip install openai 
+# pip install python-dotenv
 
 import json
 import os
@@ -6,6 +7,7 @@ import time
 from typing import Dict, Any, Optional, List
 import traceback
 import openai
+from dotenv import load_dotenv
 
 # Default banking data
 DEFAULT_BANKING_RAG_DATA = [
@@ -62,7 +64,6 @@ DEFAULT_BANKING_RAG_DATA = [
 class FinTailorAI:
     """
     FinTailorAI class for generating personalized financial recommendations
-    using OpenAI's GPT models.
     """
 
     def __init__(self, api_key: Optional[str] = None, model: str = "gpt-4o-mini"):
@@ -76,7 +77,7 @@ class FinTailorAI:
         self.model = model
 
     def _get_model(self):
-        """Return the appropriate model to use, defaulting to gpt-4o-mini for gpt-4 to avoid rate limits."""
+        """defaulting to gpt-4o-mini"""
         return "gpt-4o-mini" if self.model == "gpt-4" else self.model
 
     def _validate_banking_data(self, banking_rag_data):
@@ -113,8 +114,6 @@ class FinTailorAI:
             "expenses": total_expenses,
             "surplus": income - total_expenses,
             # No debt or assets in the new data structure
-            "debt": 0,
-            "assets": 0,
             "rate": f"{((income - total_expenses) / income * 100):.1f}%" if income > 0 else "0%"
         }
 
@@ -168,7 +167,7 @@ class FinTailorAI:
         return transaction_summary
 
     def _call_openai_with_retry(self, messages, model=None, max_tokens=1000, temperature=0.4):
-        """Call OpenAI API with retry logic for rate limits."""
+        """Call OpenAI API with retry logic"""
         model_to_use = model or self._get_model()
         max_retries = 3
         retry_delay = 2
@@ -438,10 +437,10 @@ class FinTailorAI:
             # Extract from structure
             spending_insights = financial_data.get("DEFAULT_SPENDING_INSIGHTS", {})
             if not spending_insights and isinstance(financial_data, dict):
-                # Try to use the financial_data directly if it doesn't have the expected structure
+                #Try to use the financial_data directly if dont have the expected structure
                 spending_insights = financial_data
 
-        # Get income and expenses with fallbacks
+        # Get income and expenses
         income = spending_insights.get("income", 0)
         total_expenses = spending_insights.get("total_expenses", 0)
 
@@ -457,7 +456,7 @@ class FinTailorAI:
             f"Savings Rate: {savings_rate:.1f}%\n\n"
         )
 
-        # No assets or debts in the new structure
+
         profile += "Monthly Spending Breakdown:\n"
 
         # Add spending breakdown
@@ -509,7 +508,7 @@ def generate_financial_advice(
                 user_query, financial_data, transaction_data, banking_rag_data
             )
 
-            # If we have follow-up questions, ask them
+            # If we have follow-up questions, clarify
             additional_info = {}
             if followup_questions:
                 print("\nTo provide a more tailored recommendation, I'd like to ask you a few questions:")
@@ -533,7 +532,7 @@ def generate_financial_advice(
 
                 print(f"\nGenerating your recommendation based on {' and '.join(data_sources)}...")
 
-            # Generate recommendation with additional information
+            # Generate recommendation with follow up questins
             return financial_advisor.generate_financial_recommendation(
                 user_query=user_query,
                 financial_data=financial_data,
@@ -719,11 +718,13 @@ def run_interactive_advisor(financial_json_path: str = None, transaction_json_pa
         traceback.print_exc()
 
 
-# Example usage with hardcoded paths
+load_dotenv()
+
 if __name__ == "__main__":
-    # Set your OpenAI API key
+    # now pulled from .env instead of hard‑coding
     api_key = os.getenv("OPENAI_API_KEY")
-    os.environ["OPENAI_API_KEY"] = "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"
+    if not api_key:
+        raise ValueError("No OPENAI_API_KEY found in environment")
 
     # Hardcoded paths for the BERT and RAG model outputs
     financial_json_path = "../bert/sample_output/insights.json"
